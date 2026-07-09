@@ -1,0 +1,164 @@
+- generic [active] [ref=f101e1]:
+  - generic [ref=f101e2]:
+    - generic [ref=f101e6]:
+      - list [ref=f101e8]:
+        - listitem [ref=f101e9]:
+          - link "Gradely Admin Panel" [ref=f101e10] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - img [ref=f101e12]
+            - generic [ref=f101e15]:
+              - generic [ref=f101e16]: Gradely
+              - generic [ref=f101e17]: Admin Panel
+      - generic [ref=f101e18]:
+        - generic [ref=f101e19]:
+          - generic [ref=f101e20]: Utama
+          - list [ref=f101e21]:
+            - listitem [ref=f101e22]:
+              - link "Dashboard" [ref=f101e23] [cursor=pointer]:
+                - /url: /admin/dashboard
+                - img [ref=f101e24]
+                - generic [ref=f101e29]: Dashboard
+        - generic [ref=f101e30]:
+          - generic [ref=f101e31]: Pengguna
+          - list [ref=f101e32]:
+            - listitem [ref=f101e33]:
+              - link "Mahasiswa" [ref=f101e34] [cursor=pointer]:
+                - /url: /admin/users/students
+                - img [ref=f101e35]
+                - generic [ref=f101e40]: Mahasiswa
+              - button "Toggle" [expanded] [ref=f101e41] [cursor=pointer]:
+                - img [ref=f101e42]
+                - generic [ref=f101e44]: Toggle
+              - list [ref=f101e46]:
+                - listitem [ref=f101e47]:
+                  - link "Daftar Mahasiswa" [ref=f101e48] [cursor=pointer]:
+                    - /url: /admin/users/students
+                    - generic [ref=f101e49]: Daftar Mahasiswa
+                - listitem [ref=f101e50]:
+                  - link "Tambah Mahasiswa" [ref=f101e51] [cursor=pointer]:
+                    - /url: /admin/users/students/new
+                    - generic [ref=f101e52]: Tambah Mahasiswa
+                - listitem [ref=f101e53]:
+                  - link "Import CSV" [ref=f101e54] [cursor=pointer]:
+                    - /url: /admin/users/import
+                    - generic [ref=f101e55]: Import CSV
+            - listitem [ref=f101e56]:
+              - link "Dosen Wali" [ref=f101e57] [cursor=pointer]:
+                - /url: /admin/users/lecturers
+                - img [ref=f101e58]
+                - generic [ref=f101e63]: Dosen Wali
+              - button "Toggle" [ref=f101e64] [cursor=pointer]:
+                - img [ref=f101e65]
+                - generic [ref=f101e67]: Toggle
+            - listitem [ref=f101e68]:
+              - link "Perusahaan" [ref=f101e69] [cursor=pointer]:
+                - /url: /admin/users/companies
+                - img [ref=f101e70]
+                - generic [ref=f101e74]: Perusahaan
+              - button "Toggle" [ref=f101e75] [cursor=pointer]:
+                - img [ref=f101e76]
+                - generic [ref=f101e78]: Toggle
+        - generic [ref=f101e79]:
+          - generic [ref=f101e80]: Akademik
+          - list [ref=f101e81]:
+            - listitem [ref=f101e82]:
+              - link "Program Studi" [ref=f101e83] [cursor=pointer]:
+                - /url: /admin/study-programs
+                - img [ref=f101e84]
+                - generic [ref=f101e86]: Program Studi
+            - listitem [ref=f101e87]:
+              - link "Aturan Akademik" [ref=f101e88] [cursor=pointer]:
+                - /url: /admin/academic-rules
+                - img [ref=f101e89]
+                - generic [ref=f101e91]: Aturan Akademik
+        - generic [ref=f101e92]:
+          - generic [ref=f101e93]: Konfigurasi
+          - list [ref=f101e94]:
+            - listitem [ref=f101e95]:
+              - link "Konfigurasi WAHA" [ref=f101e96] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=f101e97]
+                - generic [ref=f101e99]: Konfigurasi WAHA
+            - listitem [ref=f101e100]:
+              - link "Pengaturan Umum" [ref=f101e101] [cursor=pointer]:
+                - /url: /admin/settings/general
+                - img [ref=f101e102]
+                - generic [ref=f101e105]: Pengaturan Umum
+      - list [ref=f101e107]:
+        - listitem [ref=f101e108]:
+          - button "BS Budi Santoso admin@isi.ac.id" [ref=f101e109] [cursor=pointer]:
+            - generic [ref=f101e111]: BS
+            - generic [ref=f101e112]:
+              - generic [ref=f101e113]: Budi Santoso
+              - generic [ref=f101e114]: admin@isi.ac.id
+            - img [ref=f101e115]
+    - main [ref=f101e118]:
+      - generic [ref=f101e120]:
+        - button "Toggle Sidebar" [ref=f101e121] [cursor=pointer]:
+          - img
+          - generic [ref=f101e122]: Toggle Sidebar
+        - separator
+        - navigation [ref=f101e123]:
+          - generic [ref=f101e125]: Pengguna
+          - generic [ref=f101e126]:
+            - img [ref=f101e127]
+            - generic [ref=f101e129]: Mahasiswa
+      - main [ref=f101e132]:
+        - generic [ref=f101e133]:
+          - generic [ref=f101e134]:
+            - generic [ref=f101e135]:
+              - heading "Mahasiswa" [level=1] [ref=f101e136]
+              - paragraph [ref=f101e137]: 1 mahasiswa terdaftar
+            - generic [ref=f101e138]:
+              - link "Import CSV" [ref=f101e139] [cursor=pointer]:
+                - /url: /admin/users/import
+                - img
+                - text: Import CSV
+              - link "Tambah" [ref=f101e140] [cursor=pointer]:
+                - /url: /admin/users/students/new
+                - img
+                - text: Tambah
+          - generic [ref=f101e141]:
+            - textbox "Cari nama, email, atau NIM..." [ref=f101e142]
+            - combobox [ref=f101e143]:
+              - option "Semua Program Studi" [selected]
+              - option "Animasi"
+              - option "DI"
+              - option "DKV"
+              - option "Film"
+              - option "Foto"
+              - option "Kriya"
+              - option "Musik"
+              - option "Tari"
+              - option "Teater"
+            - button "Cari" [ref=f101e145] [cursor=pointer]
+          - generic [ref=f101e146]:
+            - generic [ref=f101e148]: Menampilkan 1 dari 1 mahasiswa
+            - table [ref=f101e152]:
+              - rowgroup [ref=f101e153]:
+                - row "Mahasiswa NIM Program Studi Semester Status Terdaftar Aksi" [ref=f101e154]:
+                  - columnheader "Mahasiswa" [ref=f101e155]
+                  - columnheader "NIM" [ref=f101e156]
+                  - columnheader "Program Studi" [ref=f101e157]
+                  - columnheader "Semester" [ref=f101e158]
+                  - columnheader "Status" [ref=f101e159]
+                  - columnheader "Terdaftar" [ref=f101e160]
+                  - columnheader "Aksi" [ref=f101e161]
+              - rowgroup [ref=f101e162]:
+                - row "TM Test Mahasiswa testmahasiswa123@test.com 2021001 DKV Sem 3 Aktif 9 Juli 2026 Detail" [ref=f101e163]:
+                  - cell "TM Test Mahasiswa testmahasiswa123@test.com" [ref=f101e164]:
+                    - generic [ref=f101e165]:
+                      - generic [ref=f101e167]: TM
+                      - generic [ref=f101e168]:
+                        - paragraph [ref=f101e169]: Test Mahasiswa
+                        - paragraph [ref=f101e170]: testmahasiswa123@test.com
+                  - cell "2021001" [ref=f101e171]
+                  - cell "DKV" [ref=f101e172]
+                  - cell "Sem 3" [ref=f101e173]
+                  - cell "Aktif" [ref=f101e174]:
+                    - generic [ref=f101e175]: Aktif
+                  - cell "9 Juli 2026" [ref=f101e176]
+                  - cell "Detail" [ref=f101e177]:
+                    - link "Detail" [ref=f101e178] [cursor=pointer]:
+                      - /url: /admin/users/students/700542d4-ab61-4b2b-964f-9780fdc29f1d
+  - region "Notifications alt+T"

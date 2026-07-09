@@ -1,0 +1,156 @@
+- generic [active] [ref=f100e1]:
+  - generic [ref=f100e2]:
+    - generic [ref=f100e6]:
+      - list [ref=f100e8]:
+        - listitem [ref=f100e9]:
+          - link "Gradely Admin Panel" [ref=f100e10] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - img [ref=f100e12]
+            - generic [ref=f100e15]:
+              - generic [ref=f100e16]: Gradely
+              - generic [ref=f100e17]: Admin Panel
+      - generic [ref=f100e18]:
+        - generic [ref=f100e19]:
+          - generic [ref=f100e20]: Utama
+          - list [ref=f100e21]:
+            - listitem [ref=f100e22]:
+              - link "Dashboard" [ref=f100e23] [cursor=pointer]:
+                - /url: /admin/dashboard
+                - img [ref=f100e24]
+                - generic [ref=f100e29]: Dashboard
+        - generic [ref=f100e30]:
+          - generic [ref=f100e31]: Pengguna
+          - list [ref=f100e32]:
+            - listitem [ref=f100e33]:
+              - link "Mahasiswa" [ref=f100e34] [cursor=pointer]:
+                - /url: /admin/users/students
+                - img [ref=f100e35]
+                - generic [ref=f100e40]: Mahasiswa
+              - button "Toggle" [expanded] [ref=f100e41] [cursor=pointer]:
+                - img [ref=f100e42]
+                - generic [ref=f100e44]: Toggle
+              - list [ref=f100e46]:
+                - listitem [ref=f100e47]:
+                  - link "Daftar Mahasiswa" [ref=f100e48] [cursor=pointer]:
+                    - /url: /admin/users/students
+                    - generic [ref=f100e49]: Daftar Mahasiswa
+                - listitem [ref=f100e50]:
+                  - link "Tambah Mahasiswa" [ref=f100e51] [cursor=pointer]:
+                    - /url: /admin/users/students/new
+                    - generic [ref=f100e52]: Tambah Mahasiswa
+                - listitem [ref=f100e53]:
+                  - link "Import CSV" [ref=f100e54] [cursor=pointer]:
+                    - /url: /admin/users/import
+                    - generic [ref=f100e55]: Import CSV
+            - listitem [ref=f100e56]:
+              - link "Dosen Wali" [ref=f100e57] [cursor=pointer]:
+                - /url: /admin/users/lecturers
+                - img [ref=f100e58]
+                - generic [ref=f100e63]: Dosen Wali
+              - button "Toggle" [ref=f100e64] [cursor=pointer]:
+                - img [ref=f100e65]
+                - generic [ref=f100e67]: Toggle
+            - listitem [ref=f100e68]:
+              - link "Perusahaan" [ref=f100e69] [cursor=pointer]:
+                - /url: /admin/users/companies
+                - img [ref=f100e70]
+                - generic [ref=f100e74]: Perusahaan
+              - button "Toggle" [ref=f100e75] [cursor=pointer]:
+                - img [ref=f100e76]
+                - generic [ref=f100e78]: Toggle
+        - generic [ref=f100e79]:
+          - generic [ref=f100e80]: Akademik
+          - list [ref=f100e81]:
+            - listitem [ref=f100e82]:
+              - link "Program Studi" [ref=f100e83] [cursor=pointer]:
+                - /url: /admin/study-programs
+                - img [ref=f100e84]
+                - generic [ref=f100e86]: Program Studi
+            - listitem [ref=f100e87]:
+              - link "Aturan Akademik" [ref=f100e88] [cursor=pointer]:
+                - /url: /admin/academic-rules
+                - img [ref=f100e89]
+                - generic [ref=f100e91]: Aturan Akademik
+        - generic [ref=f100e92]:
+          - generic [ref=f100e93]: Konfigurasi
+          - list [ref=f100e94]:
+            - listitem [ref=f100e95]:
+              - link "Konfigurasi WAHA" [ref=f100e96] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=f100e97]
+                - generic [ref=f100e99]: Konfigurasi WAHA
+            - listitem [ref=f100e100]:
+              - link "Pengaturan Umum" [ref=f100e101] [cursor=pointer]:
+                - /url: /admin/settings/general
+                - img [ref=f100e102]
+                - generic [ref=f100e105]: Pengaturan Umum
+      - list [ref=f100e107]:
+        - listitem [ref=f100e108]:
+          - button "BS Budi Santoso admin@isi.ac.id" [ref=f100e109] [cursor=pointer]:
+            - generic [ref=f100e111]: BS
+            - generic [ref=f100e112]:
+              - generic [ref=f100e113]: Budi Santoso
+              - generic [ref=f100e114]: admin@isi.ac.id
+            - img [ref=f100e115]
+    - main [ref=f100e118]:
+      - generic [ref=f100e120]:
+        - button "Toggle Sidebar" [ref=f100e121] [cursor=pointer]:
+          - img
+          - generic [ref=f100e122]: Toggle Sidebar
+        - separator
+        - navigation [ref=f100e123]:
+          - generic [ref=f100e125]: Pengguna
+          - generic [ref=f100e126]:
+            - img [ref=f100e127]
+            - button "Mahasiswa" [ref=f100e129] [cursor=pointer]
+          - generic [ref=f100e130]:
+            - img [ref=f100e131]
+            - generic [ref=f100e133]: Detail
+      - main [ref=f100e136]:
+        - generic [ref=f100e137]:
+          - generic [ref=f100e138]:
+            - heading "Detail Mahasiswa" [level=1] [ref=f100e139]
+            - paragraph [ref=f100e140]: Informasi lengkap akun mahasiswa
+          - generic [ref=f100e141]:
+            - generic [ref=f100e143]:
+              - generic [ref=f100e144]:
+                - generic [ref=f100e146]: TM
+                - generic [ref=f100e147]:
+                  - generic [ref=f100e148]:
+                    - generic [ref=f100e149]: Test Mahasiswa
+                    - generic [ref=f100e150]: Aktif
+                  - generic [ref=f100e151]: testmahasiswa123@test.com
+              - generic [ref=f100e153]:
+                - button "Edit" [ref=f100e154] [cursor=pointer]:
+                  - img
+                  - text: Edit
+                - button "Hapus" [ref=f100e155] [cursor=pointer]:
+                  - img
+                  - text: Hapus
+            - separator
+            - generic [ref=f100e157]:
+              - generic [ref=f100e158]:
+                - paragraph [ref=f100e159]: NIM
+                - paragraph [ref=f100e160]: "-"
+              - generic [ref=f100e161]:
+                - paragraph [ref=f100e162]: No. HP
+                - paragraph [ref=f100e163]: "-"
+              - generic [ref=f100e164]:
+                - paragraph [ref=f100e165]: Program Studi
+                - paragraph [ref=f100e166]: "-"
+              - generic [ref=f100e167]:
+                - paragraph [ref=f100e168]: Semester Aktif
+                - paragraph [ref=f100e169]: "-"
+              - generic [ref=f100e170]:
+                - paragraph [ref=f100e171]: Jenis Semester
+                - paragraph [ref=f100e172]: Ganjil
+              - generic [ref=f100e173]:
+                - paragraph [ref=f100e174]: Universitas
+                - paragraph [ref=f100e175]: Institut Seni Indonesia Yogyakarta
+              - generic [ref=f100e176]:
+                - paragraph [ref=f100e177]: Terdaftar
+                - paragraph [ref=f100e178]: 9 Juli 2026
+              - generic [ref=f100e179]:
+                - paragraph [ref=f100e180]: Profil ke Perusahaan
+                - paragraph [ref=f100e181]: Tersembunyi
+  - region "Notifications alt+T"

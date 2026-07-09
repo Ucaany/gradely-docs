@@ -1540,3 +1540,416 @@ Fast Refresh requires at least one parent function component in your React tree.
 [ 4368454ms] [LOG] [Fast Refresh] done in 411ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
 [ 4371771ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
 [ 4372172ms] [LOG] [Fast Refresh] done in 400ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 4404904ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 4451577ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 4638706ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 4639457ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 4639483ms] [LOG] [Fast Refresh] done in 26ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 4641130ms] [LOG] [Fast Refresh] done in 1672ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 4706490ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 4707356ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:112
+[ 4709797ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 4722286ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 4736638ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 4813430ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/settings:0
+[ 4818824ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/settings:0
+[ 4889999ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 4890487ms] [LOG] [Fast Refresh] done in 489ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 4903169ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 4925663ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 4926698ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:112
+[ 4929196ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 4929479ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 4944479ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 4944798ms] [LOG] [Fast Refresh] done in 320ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 4972281ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/settings:0
+[ 4984078ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 5001339ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5001698ms] [LOG] [Fast Refresh] done in 359ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5017882ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 5039119ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5039511ms] [LOG] [Fast Refresh] done in 393ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5098982ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5099732ms] [LOG] [Fast Refresh] done in 749ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5151090ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 5175380ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/settings:0
+[ 5187257ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5187958ms] [LOG] [Fast Refresh] done in 700ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5190454ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5195422ms] [LOG] [Fast Refresh] done in 4969ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5234921ms] [WARNING] The resource http://localhost:3000/_next/static/css/app/layout.css?v=1783591350818 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/login:0
+[ 5285371ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/companies/new:0
+[ 5332513ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 5410499ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5411131ms] [LOG] [Fast Refresh] done in 632ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5413085ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 5419818ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5420326ms] [LOG] [Fast Refresh] done in 508ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5428012ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5428507ms] [LOG] [Fast Refresh] done in 494ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5430852ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/lecturers/new:0
+[ 5436414ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5436862ms] [LOG] [Fast Refresh] done in 448ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5439839ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/companies/new:0
+[ 5448497ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5449048ms] [LOG] [Fast Refresh] done in 552ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5455524ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5455941ms] [LOG] [Fast Refresh] done in 416ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5456534ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5457276ms] [LOG] [Fast Refresh] done in 742ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5458009ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5458526ms] [LOG] [Fast Refresh] done in 517ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5464227ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/settings:0
+[ 5469281ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5469797ms] [LOG] [Fast Refresh] done in 515ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5472594ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 5518110ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/settings:0
+[ 5520107ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5520890ms] [LOG] [Fast Refresh] done in 783ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5526635ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 5860060ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5860627ms] [LOG] [Fast Refresh] done in 567ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5874439ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5874882ms] [LOG] [Fast Refresh] done in 443ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5883962ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5884301ms] [LOG] [Fast Refresh] done in 339ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5952045ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5952842ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5952882ms] [LOG] [Fast Refresh] done in 40ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5953981ms] [LOG] [Fast Refresh] done in 1139ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5979790ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5980224ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 5980257ms] [LOG] [Fast Refresh] done in 34ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 5980856ms] [LOG] [Fast Refresh] done in 632ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6015753ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6016036ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6016071ms] [LOG] [Fast Refresh] done in 35ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6016587ms] [LOG] [Fast Refresh] done in 550ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6047684ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6048073ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6048110ms] [LOG] [Fast Refresh] done in 38ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6048661ms] [LOG] [Fast Refresh] done in 588ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6056758ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/companies/new:0
+[ 6121182ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6121939ms] [LOG] [Fast Refresh] done in 757ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6192119ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6192677ms] [LOG] [Fast Refresh] done in 558ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6223778ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6224061ms] [LOG] [Fast Refresh] done in 282ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6297285ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6298008ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6298046ms] [LOG] [Fast Refresh] done in 39ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6298891ms] [LOG] [Fast Refresh] done in 884ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6390298ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6390985ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6391028ms] [LOG] [Fast Refresh] done in 44ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6391643ms] [LOG] [Fast Refresh] done in 658ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6418958ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6419247ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6419277ms] [LOG] [Fast Refresh] done in 31ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6419840ms] [LOG] [Fast Refresh] done in 593ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6430840ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6431109ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6431145ms] [LOG] [Fast Refresh] done in 35ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6431719ms] [LOG] [Fast Refresh] done in 609ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6455725ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6456128ms] [LOG] [Fast Refresh] done in 403ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6567698ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 6569130ms] [LOG] [Fast Refresh] done in 1432ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 6570770ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/users/companies?_rsc=1ko0n:0
+[ 6571987ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/users/companies:0
+[ 7235916ms] [ERROR] Failed to fetch RSC payload for http://localhost:3000/admin/users/students. Falling back to browser navigation. Error: Failed to read a RSC payload created by a development version of React on the server while using a production version on the client. Always use matching versions on the server and the client.
+    at t (http://localhost:3000/_next/static/chunks/2117-6044b9f00c2b7a92.js:2:20486) @ http://localhost:3000/_next/static/chunks/2117-6044b9f00c2b7a92.js:0
+[ 7236585ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/users/students:0
+[ 7238538ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/users/students:0
+[ 7259506ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 7263613ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7265135ms] [LOG] [Fast Refresh] done in 1523ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7266882ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 7346468ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7347191ms] [LOG] [Fast Refresh] done in 722ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7366007ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 7401766ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7402157ms] [LOG] [Fast Refresh] done in 390ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7460210ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7460585ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7460652ms] [LOG] [Fast Refresh] done in 67ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7460890ms] [LOG] [Fast Refresh] done in 305ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7523214ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7523626ms] [LOG] [Fast Refresh] done in 412ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7523816ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7524250ms] [LOG] [Fast Refresh] done in 435ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7526453ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 7530374ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7530571ms] [LOG] [Fast Refresh] done in 196ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7534168ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7534466ms] [LOG] [Fast Refresh] done in 298ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7638857ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7639642ms] [LOG] [Fast Refresh] done in 786ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7640185ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7640461ms] [LOG] [Fast Refresh] done in 275ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7640778ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/css/app/layout.css?v=1783593759092:0
+[ 7640894ms] Event
+[ 7649331ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7649568ms] [LOG] [Fast Refresh] done in 236ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7650156ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/css/app/layout.css?v=1783593769032:0
+[ 7650791ms] Event
+[ 7685450ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/css/app/layout.css?v=1783593803547:0
+[ 7685458ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 7685490ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/webpack.js?v=1783593803547:0
+[ 7685491ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/main-app.js?v=1783593803547:0
+[ 7685496ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app/layout.js:0
+[ 7685497ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app-pages-internals.js:0
+[ 7685498ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app/(admin)/layout.js:0
+[ 7685541ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app/(admin)/admin/users/students/new/page.js:0
+[ 7694349ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/css/app/layout.css?v=1783593812880:0
+[ 7694358ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 7694405ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/webpack.js?v=1783593812880:0
+[ 7694416ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/main-app.js?v=1783593812880:0
+[ 7694416ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app-pages-internals.js:0
+[ 7694418ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app/layout.js:0
+[ 7694419ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app/(admin)/admin/users/students/new/page.js:0
+[ 7694424ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app/(admin)/layout.js:0
+[ 7718853ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 7719258ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 7720586ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7722763ms] [LOG] [Fast Refresh] done in 2178ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7733026ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7733515ms] [LOG] [Fast Refresh] done in 489ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7741398ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7741695ms] [LOG] [Fast Refresh] done in 297ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7750343ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7750586ms] [LOG] [Fast Refresh] done in 243ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7757785ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7758264ms] [LOG] [Fast Refresh] done in 480ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7801938ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7802220ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7802268ms] [LOG] [Fast Refresh] done in 47ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7802481ms] [LOG] [Fast Refresh] done in 260ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7861846ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7862380ms] [LOG] [Fast Refresh] done in 534ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7903656ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7903931ms] [LOG] [Fast Refresh] done in 276ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7904294ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7904992ms] [LOG] [Fast Refresh] done in 697ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7905406ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/css/app/layout.css?v=1783594023236:0
+[ 7906507ms] Event
+[ 7946107ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 7947703ms] [LOG] [Fast Refresh] done in 1596ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 7948406ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/users/students/new:0
+[ 7948785ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[ 7948848ms] Error: Cannot find module './2377.js'
+Require stack:
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\_not-found\page.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\require.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\load-components.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\build\utils.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at <unknown> (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\require-hook.js:55:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16)
+    at __webpack_require__.f.require (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:162:22)
+    at <unknown> (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\users\students\new\page.js:1:3808)
+    at Object.<anonymous> (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\users\students\new\page.js:1:3901)
+    at Module._compile (node:internal/modules/cjs/loader:1830:14)
+    at Object..js (node:internal/modules/cjs/loader:1961:10)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16)
+    at requirePage (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\require.js:109:84)
+    at <unknown> (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\load-components.js:103:84)
+    at async loadComponentsImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\base-server.js:818:17)
+    at async (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\dev\next-dev-server.js:339:20)
+    at async Span.traceAsyncFn (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\start-server.js:141:13)
+[ 7948847ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[ 7961624ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:63
+[ 7964985ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:63
+[ 7968023ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[ 7968059ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[ 7969239ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[ 7971909ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[ 7972075ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/b53415dbdaf0a8ba.webpack.hot-update.json:0
+[ 7972075ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:349
+[ 7972361ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/b53415dbdaf0a8ba.webpack.hot-update.json:0
+[ 7972362ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:349
+[ 7973243ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[ 7975915ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/b53415dbdaf0a8ba.webpack.hot-update.json:0
+[ 7975915ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:349
+[ 7976845ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 7977135ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 8601336ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 8601586ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 8667039ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 8667621ms] [LOG] [Fast Refresh] done in 583ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 8676646ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 8676951ms] [LOG] [Fast Refresh] done in 305ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 8681664ms] [WARNING] The resource http://localhost:3000/_next/static/css/app/layout.css?v=1783594797621 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/admin/users/students/new:0
+[ 8732042ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/css/app/layout.css?v=1783594837992:0
+[ 8732052ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 8732056ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/chunks/app/layout.js:0
+[ 8732056ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/chunks/webpack.js?v=1783594837992:0
+[ 8732056ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/chunks/main-app.js?v=1783594837992:0
+[ 8732057ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/chunks/app-pages-internals.js:0
+[ 8732057ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/chunks/app/(admin)/layout.js:0
+[ 8732374ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app/(admin)/admin/users/students/new/page.js:0
+[ 8761282ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 8761534ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 8765481ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 8769566ms] [LOG] [Fast Refresh] done in 4085ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 8783900ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 8784418ms] [LOG] [Fast Refresh] done in 518ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 8796938ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 8797532ms] [LOG] [Fast Refresh] done in 594ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 8799177ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/settings:0
+[ 8885564ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[ 8906239ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 8908036ms] [LOG] [Fast Refresh] done in 1798ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 8917375ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 8918197ms] [LOG] [Fast Refresh] done in 823ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 8928281ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 8929098ms] [LOG] [Fast Refresh] done in 817ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 8952788ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 8954217ms] [LOG] [Fast Refresh] done in 1429ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 8971723ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 8971959ms] [LOG] [Fast Refresh] done in 235ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 9009682ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 9010102ms] [LOG] [Fast Refresh] done in 420ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 9345550ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 9346150ms] [LOG] [Fast Refresh] done in 600ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 9395265ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 9396198ms] [LOG] [Fast Refresh] done in 933ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 9401828ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 9402110ms] [LOG] [Fast Refresh] done in 282ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 9941039ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 9942190ms] [LOG] [Fast Refresh] done in 1151ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 9962888ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 9963507ms] [LOG] [Fast Refresh] done in 620ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[10012081ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[10012415ms] [LOG] [Fast Refresh] done in 334ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[10013708ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[10013977ms] [LOG] [Fast Refresh] done in 269ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[10014443ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/css/app/layout.css?v=1783596132650:0
+[10016070ms] Event
+[10024383ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/css/app/layout.css?v=1783596140387:0
+[10024390ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[10024433ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/main-app.js?v=1783596140387:0
+[10024435ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app-pages-internals.js:0
+[10024437ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app/(admin)/admin/users/students/new/page.js:0
+[10028074ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/css/app/layout.css?v=1783596146185:0
+[10028081ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[10028100ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/main-app.js?v=1783596146185:0
+[10028100ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app-pages-internals.js:0
+[10028101ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/chunks/app/(admin)/admin/users/students/new/page.js:0
+[10053818ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/users/students/new:0
+[10054141ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[10054215ms] Error: Cannot find module './vendor-chunks/next.js'
+Require stack:
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\users\students\new\page.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\require.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\load-components.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\build\utils.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1476:15)
+    at <unknown> (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\require-hook.js:55:36)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1049:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1073:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1094:12)
+    at Module._load (node:internal/modules/cjs/loader:1262:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16)
+    at __webpack_require__.f.require (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:203:28)
+    at <unknown> (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:111:40)
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:162:22)
+    at <unknown> (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\users\students\new\page.js:686:47)
+    at Object.<anonymous> (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\users\students\new\page.js:689:3)
+    at Module._compile (node:internal/modules/cjs/loader:1830:14)
+    at Object..js (node:internal/modules/cjs/loader:1961:10)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1576:12)
+    at mod.require (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:153:16)
+    at requirePage (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\require.js:109:84)
+    at <unknown> (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\load-components.js:103:84)
+    at async loadComponentsImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\base-server.js:818:17)
+    at async (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\dev\next-dev-server.js:339:20)
+    at async Span.traceAsyncFn (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\server\lib\start-server.js:141:13)
+[10054478ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[10178385ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[10179076ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:349
+[10183491ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/admin/users/students/new:0
+[10183844ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[10817512ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[10818148ms] [LOG] [Fast Refresh] done in 636ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[10823122ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[10823579ms] [WARNING] Select is changing from uncontrolled to controlled. Components should not switch from controlled to uncontrolled (or vice versa). Decide between using a controlled or uncontrolled value for the lifetime of the component. @ webpack-internal:///(app-pages-browser)/./node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs:33
+[10823580ms] [LOG] [Fast Refresh] done in 458ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43

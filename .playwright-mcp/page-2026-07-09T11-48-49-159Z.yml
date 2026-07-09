@@ -1,0 +1,239 @@
+- generic [active] [ref=f104e1]:
+  - generic [ref=f104e2]:
+    - generic [ref=f104e6]:
+      - list [ref=f104e8]:
+        - listitem [ref=f104e9]:
+          - link "Gradely Admin Panel" [ref=f104e10] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - img [ref=f104e12]
+            - generic [ref=f104e15]:
+              - generic [ref=f104e16]: Gradely
+              - generic [ref=f104e17]: Admin Panel
+      - generic [ref=f104e18]:
+        - generic [ref=f104e19]:
+          - generic [ref=f104e20]: Utama
+          - list [ref=f104e21]:
+            - listitem [ref=f104e22]:
+              - link "Dashboard" [ref=f104e23] [cursor=pointer]:
+                - /url: /admin/dashboard
+                - img [ref=f104e24]
+                - generic [ref=f104e29]: Dashboard
+        - generic [ref=f104e30]:
+          - generic [ref=f104e31]: Pengguna
+          - list [ref=f104e32]:
+            - listitem [ref=f104e33]:
+              - link "Mahasiswa" [ref=f104e34] [cursor=pointer]:
+                - /url: /admin/users/students
+                - img [ref=f104e35]
+                - generic [ref=f104e40]: Mahasiswa
+              - button "Toggle" [ref=f104e41] [cursor=pointer]:
+                - img [ref=f104e42]
+                - generic [ref=f104e44]: Toggle
+            - listitem [ref=f104e45]:
+              - link "Dosen Wali" [ref=f104e46] [cursor=pointer]:
+                - /url: /admin/users/lecturers
+                - img [ref=f104e47]
+                - generic [ref=f104e52]: Dosen Wali
+              - button "Toggle" [ref=f104e53] [cursor=pointer]:
+                - img [ref=f104e54]
+                - generic [ref=f104e56]: Toggle
+            - listitem [ref=f104e57]:
+              - link "Perusahaan" [ref=f104e58] [cursor=pointer]:
+                - /url: /admin/users/companies
+                - img [ref=f104e59]
+                - generic [ref=f104e63]: Perusahaan
+              - button "Toggle" [ref=f104e64] [cursor=pointer]:
+                - img [ref=f104e65]
+                - generic [ref=f104e67]: Toggle
+        - generic [ref=f104e68]:
+          - generic [ref=f104e69]: Akademik
+          - list [ref=f104e70]:
+            - listitem [ref=f104e71]:
+              - link "Program Studi" [ref=f104e72] [cursor=pointer]:
+                - /url: /admin/study-programs
+                - img [ref=f104e73]
+                - generic [ref=f104e75]: Program Studi
+            - listitem [ref=f104e76]:
+              - link "Aturan Akademik" [ref=f104e77] [cursor=pointer]:
+                - /url: /admin/academic-rules
+                - img [ref=f104e78]
+                - generic [ref=f104e80]: Aturan Akademik
+        - generic [ref=f104e81]:
+          - generic [ref=f104e82]: Konfigurasi
+          - list [ref=f104e83]:
+            - listitem [ref=f104e84]:
+              - link "Konfigurasi WAHA" [ref=f104e85] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=f104e86]
+                - generic [ref=f104e88]: Konfigurasi WAHA
+            - listitem [ref=f104e89]:
+              - link "Pengaturan Umum" [ref=f104e90] [cursor=pointer]:
+                - /url: /admin/settings/general
+                - img [ref=f104e91]
+                - generic [ref=f104e94]: Pengaturan Umum
+      - list [ref=f104e96]:
+        - listitem [ref=f104e97]:
+          - button "BS Budi Santoso admin@isi.ac.id" [ref=f104e98] [cursor=pointer]:
+            - generic [ref=f104e100]: BS
+            - generic [ref=f104e101]:
+              - generic [ref=f104e102]: Budi Santoso
+              - generic [ref=f104e103]: admin@isi.ac.id
+            - img [ref=f104e104]
+    - main [ref=f104e107]:
+      - generic [ref=f104e109]:
+        - button "Toggle Sidebar" [ref=f104e110] [cursor=pointer]:
+          - img
+          - generic [ref=f104e111]: Toggle Sidebar
+        - separator
+        - navigation [ref=f104e112]:
+          - generic [ref=f104e114]: Akademik
+          - generic [ref=f104e115]:
+            - img [ref=f104e116]
+            - generic [ref=f104e118]: Program Studi
+      - main [ref=f104e121]:
+        - generic [ref=f104e122]:
+          - generic [ref=f104e123]:
+            - generic [ref=f104e124]:
+              - heading "Program Studi" [level=1] [ref=f104e125]
+              - paragraph [ref=f104e126]: 9 program studi terdaftar
+            - button "Tambah Program Studi" [ref=f104e128] [cursor=pointer]:
+              - img
+              - text: Tambah Program Studi
+          - generic [ref=f104e129]:
+            - generic [ref=f104e131]: 9 program studi
+            - table [ref=f104e135]:
+              - rowgroup [ref=f104e136]:
+                - row "Nama Program Studi Singkatan Jenjang Status Aksi" [ref=f104e137]:
+                  - columnheader "Nama Program Studi" [ref=f104e138]
+                  - columnheader "Singkatan" [ref=f104e139]
+                  - columnheader "Jenjang" [ref=f104e140]
+                  - columnheader "Status" [ref=f104e141]
+                  - columnheader "Aksi" [ref=f104e142]
+              - rowgroup [ref=f104e143]:
+                - row "Animasi Animasi S1 Aktifkan program studi" [ref=f104e144]:
+                  - cell "Animasi" [ref=f104e145]
+                  - cell "Animasi" [ref=f104e146]
+                  - cell "S1" [ref=f104e147]:
+                    - generic [ref=f104e148]: S1
+                  - cell "Aktifkan program studi" [ref=f104e149]:
+                    - switch "Aktifkan program studi" [ref=f104e150]
+                    - checkbox [ref=f104e151]
+                  - cell [ref=f104e152]:
+                    - generic [ref=f104e153]:
+                      - button [ref=f104e154] [cursor=pointer]:
+                        - img
+                      - button [ref=f104e155] [cursor=pointer]:
+                        - img
+                - row "Desain Interior DI S1 Nonaktifkan program studi" [ref=f104e156]:
+                  - cell "Desain Interior" [ref=f104e157]
+                  - cell "DI" [ref=f104e158]
+                  - cell "S1" [ref=f104e159]:
+                    - generic [ref=f104e160]: S1
+                  - cell "Nonaktifkan program studi" [ref=f104e161]:
+                    - switch "Nonaktifkan program studi" [checked] [ref=f104e162]
+                    - checkbox [checked] [ref=f104e163]
+                  - cell [ref=f104e164]:
+                    - generic [ref=f104e165]:
+                      - button [ref=f104e166] [cursor=pointer]:
+                        - img
+                      - button [ref=f104e167] [cursor=pointer]:
+                        - img
+                - row "Desain Komunikasi Visual DKV S1 Nonaktifkan program studi" [ref=f104e168]:
+                  - cell "Desain Komunikasi Visual" [ref=f104e169]
+                  - cell "DKV" [ref=f104e170]
+                  - cell "S1" [ref=f104e171]:
+                    - generic [ref=f104e172]: S1
+                  - cell "Nonaktifkan program studi" [ref=f104e173]:
+                    - switch "Nonaktifkan program studi" [checked] [ref=f104e174]
+                    - checkbox [checked] [ref=f104e175]
+                  - cell [ref=f104e176]:
+                    - generic [ref=f104e177]:
+                      - button [ref=f104e178] [cursor=pointer]:
+                        - img
+                      - button [ref=f104e179] [cursor=pointer]:
+                        - img
+                - row "Film dan Televisi Film S1 Nonaktifkan program studi" [ref=f104e180]:
+                  - cell "Film dan Televisi" [ref=f104e181]
+                  - cell "Film" [ref=f104e182]
+                  - cell "S1" [ref=f104e183]:
+                    - generic [ref=f104e184]: S1
+                  - cell "Nonaktifkan program studi" [ref=f104e185]:
+                    - switch "Nonaktifkan program studi" [checked] [ref=f104e186]
+                    - checkbox [checked] [ref=f104e187]
+                  - cell [ref=f104e188]:
+                    - generic [ref=f104e189]:
+                      - button [ref=f104e190] [cursor=pointer]:
+                        - img
+                      - button [ref=f104e191] [cursor=pointer]:
+                        - img
+                - row "Fotografi Foto S1 Nonaktifkan program studi" [ref=f104e192]:
+                  - cell "Fotografi" [ref=f104e193]
+                  - cell "Foto" [ref=f104e194]
+                  - cell "S1" [ref=f104e195]:
+                    - generic [ref=f104e196]: S1
+                  - cell "Nonaktifkan program studi" [ref=f104e197]:
+                    - switch "Nonaktifkan program studi" [checked] [ref=f104e198]
+                    - checkbox [checked] [ref=f104e199]
+                  - cell [ref=f104e200]:
+                    - generic [ref=f104e201]:
+                      - button [ref=f104e202] [cursor=pointer]:
+                        - img
+                      - button [ref=f104e203] [cursor=pointer]:
+                        - img
+                - row "Kriya Kriya S1 Nonaktifkan program studi" [ref=f104e204]:
+                  - cell "Kriya" [ref=f104e205]
+                  - cell "Kriya" [ref=f104e206]
+                  - cell "S1" [ref=f104e207]:
+                    - generic [ref=f104e208]: S1
+                  - cell "Nonaktifkan program studi" [ref=f104e209]:
+                    - switch "Nonaktifkan program studi" [checked] [ref=f104e210]
+                    - checkbox [checked] [ref=f104e211]
+                  - cell [ref=f104e212]:
+                    - generic [ref=f104e213]:
+                      - button [ref=f104e214] [cursor=pointer]:
+                        - img
+                      - button [ref=f104e215] [cursor=pointer]:
+                        - img
+                - row "Seni Musik Musik S1 Nonaktifkan program studi" [ref=f104e216]:
+                  - cell "Seni Musik" [ref=f104e217]
+                  - cell "Musik" [ref=f104e218]
+                  - cell "S1" [ref=f104e219]:
+                    - generic [ref=f104e220]: S1
+                  - cell "Nonaktifkan program studi" [ref=f104e221]:
+                    - switch "Nonaktifkan program studi" [checked] [ref=f104e222]
+                    - checkbox [checked] [ref=f104e223]
+                  - cell [ref=f104e224]:
+                    - generic [ref=f104e225]:
+                      - button [ref=f104e226] [cursor=pointer]:
+                        - img
+                      - button [ref=f104e227] [cursor=pointer]:
+                        - img
+                - row "Seni Tari Tari S1 Nonaktifkan program studi" [ref=f104e228]:
+                  - cell "Seni Tari" [ref=f104e229]
+                  - cell "Tari" [ref=f104e230]
+                  - cell "S1" [ref=f104e231]:
+                    - generic [ref=f104e232]: S1
+                  - cell "Nonaktifkan program studi" [ref=f104e233]:
+                    - switch "Nonaktifkan program studi" [checked] [ref=f104e234]
+                    - checkbox [checked] [ref=f104e235]
+                  - cell [ref=f104e236]:
+                    - generic [ref=f104e237]:
+                      - button [ref=f104e238] [cursor=pointer]:
+                        - img
+                      - button [ref=f104e239] [cursor=pointer]:
+                        - img
+                - row "Teater Teater S1 Nonaktifkan program studi" [ref=f104e240]:
+                  - cell "Teater" [ref=f104e241]
+                  - cell "Teater" [ref=f104e242]
+                  - cell "S1" [ref=f104e243]:
+                    - generic [ref=f104e244]: S1
+                  - cell "Nonaktifkan program studi" [ref=f104e245]:
+                    - switch "Nonaktifkan program studi" [checked] [ref=f104e246]
+                    - checkbox [checked] [ref=f104e247]
+                  - cell [ref=f104e248]:
+                    - generic [ref=f104e249]:
+                      - button [ref=f104e250] [cursor=pointer]:
+                        - img
+                      - button [ref=f104e251] [cursor=pointer]:
+                        - img
+  - region "Notifications alt+T"

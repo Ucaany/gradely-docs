@@ -1,0 +1,83 @@
+- generic [active] [ref=f95e1]:
+  - main [ref=f95e3]:
+    - generic [ref=f95e5]:
+      - button "Toggle Sidebar" [ref=f95e6] [cursor=pointer]:
+        - img
+        - generic [ref=f95e7]: Toggle Sidebar
+      - separator
+      - navigation [ref=f95e8]:
+        - generic [ref=f95e10]: Pengguna
+        - generic [ref=f95e11]:
+          - img [ref=f95e12]
+          - button "Mahasiswa" [ref=f95e14] [cursor=pointer]
+        - generic [ref=f95e15]:
+          - img [ref=f95e16]
+          - generic [ref=f95e18]: Tambah
+    - main [ref=f95e21]:
+      - generic [ref=f95e22]:
+        - generic [ref=f95e23]:
+          - heading "Tambah Mahasiswa" [level=1] [ref=f95e24]
+          - paragraph [ref=f95e25]: Buat akun baru untuk mahasiswa
+        - generic [ref=f95e26]:
+          - generic [ref=f95e27]:
+            - generic [ref=f95e28]:
+              - generic [ref=f95e29]: Informasi Akun
+              - generic [ref=f95e30]: Data login pengguna
+            - generic [ref=f95e31]:
+              - generic [ref=f95e32]:
+                - generic [ref=f95e33]:
+                  - text: Nama Lengkap
+                  - generic [ref=f95e34]: "*"
+                - textbox "Nama Lengkap *" [ref=f95e35]:
+                  - /placeholder: Nama lengkap
+              - generic [ref=f95e36]:
+                - generic [ref=f95e37]:
+                  - text: Email
+                  - generic [ref=f95e38]: "*"
+                - textbox "Email *" [ref=f95e39]:
+                  - /placeholder: email@isi.ac.id
+              - generic [ref=f95e40]:
+                - generic [ref=f95e41]:
+                  - text: Password
+                  - generic [ref=f95e42]: "*"
+                - textbox "Password *" [ref=f95e43]:
+                  - /placeholder: Min. 8 karakter
+              - generic [ref=f95e44]:
+                - generic [ref=f95e45]: No. HP
+                - textbox "No. HP" [ref=f95e46]:
+                  - /placeholder: 08xxxxxxxxxx
+          - generic [ref=f95e47]:
+            - generic [ref=f95e48]:
+              - generic [ref=f95e49]: Informasi Akademik
+              - generic [ref=f95e50]: Data akademik dan peran pengguna
+            - generic [ref=f95e51]:
+              - generic [ref=f95e52]:
+                - generic [ref=f95e53]:
+                  - text: Role
+                  - generic [ref=f95e54]: "*"
+                - combobox "Role *" [ref=f95e55] [cursor=pointer]:
+                  - img [ref=f95e56]
+                - combobox [ref=f95e58]
+              - generic [ref=f95e59]:
+                - generic [ref=f95e60]: Program Studi
+                - combobox "Program Studi" [ref=f95e61] [cursor=pointer]:
+                  - generic: Pilih program studi
+                  - img [ref=f95e62]
+                - combobox [ref=f95e64]
+              - separator
+              - generic [ref=f95e65]:
+                - generic [ref=f95e66]: NIM
+                - textbox "NIM" [ref=f95e67]:
+                  - /placeholder: Nomor Induk Mahasiswa
+              - generic [ref=f95e68]:
+                - generic [ref=f95e69]: Semester Aktif
+                - spinbutton "Semester Aktif" [ref=f95e70]
+              - generic [ref=f95e71]:
+                - generic [ref=f95e72]: Jenis Semester Aktif
+                - combobox "Jenis Semester Aktif" [ref=f95e73] [cursor=pointer]:
+                  - img [ref=f95e74]
+                - combobox [ref=f95e76]
+          - generic [ref=f95e77]:
+            - button "Batal" [ref=f95e78] [cursor=pointer]
+            - button "Buat Akun" [ref=f95e79] [cursor=pointer]
+  - region "Notifications alt+T"

@@ -1,0 +1,2 @@
+[     878ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ chrome-error://chromewebdata/:0
+[    8098ms] [ERROR] Not allowed to load local resource: chrome-error://chromewebdata/src/lib/supabase/client.ts @ :1

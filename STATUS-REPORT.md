@@ -1,7 +1,7 @@
 # Gradely — Status Report
-**Tanggal Update:** 09 Juli 2026  
-**Fase Saat Ini:** Phase 1 ✅ Selesai → Phase 2 🔄 Berikutnya  
-**Progress Keseluruhan:** ~28% (Phase 1 + audit + UI polish selesai)
+**Tanggal Update:** 10 Juli 2026  
+**Fase Saat Ini:** Phase 2 ✅ Selesai → Phase 3 ✅ Selesai → Phase 4 🔄 Berikutnya  
+**Progress Keseluruhan:** ~65% (Phase 1 + 2 + 3 selesai)
 
 ---
 
@@ -12,8 +12,8 @@
 | Phase 1 — Fondasi | ✅ **SELESAI** | Auth, Database, Admin Panel, User Management |
 | Audit & Bug Fixes | ✅ **SELESAI** | 36 issues diperbaiki (critical, high, medium) |
 | UI Polish | ✅ **SELESAI** | shadcn Form, full width, responsive, import CSV |
-| Phase 2 — Akademik | 🔴 **BELUM MULAI** | Dashboard Mahasiswa, Nilai, IPK, Target |
-| Phase 3 — Dosen | 🔴 **BELUM MULAI** | Dashboard Dosen, Monitoring, Risiko |
+| Phase 2 — Akademik | ✅ **SELESAI** | Dashboard Mahasiswa, Nilai, IPK, Target |
+| Phase 3 — Dosen | ✅ **SELESAI** | Dashboard Dosen, Monitoring, Risiko |
 | Phase 4 — Portfolio & Career | 🔴 **BELUM MULAI** | Portfolio, Career Profile, Company Dashboard |
 | Phase 5 — WAHA & Launch | 🟡 **PARTIAL** | Settings UI selesai, send logic belum |
 
@@ -112,7 +112,22 @@
 
 ---
 
-## PHASE 2 — BELUM DIMULAI (0%)
+## PHASE 3 — SELESAI (100%) — 10 Juli 2026
+
+### Dashboard Dosen Wali ✅
+- Layout sidebar dosen (`lecturer-sidebar.tsx`)
+- Header + breadcrumb dosen (`lecturer-header.tsx`)
+- Layout dosen dengan auth guard (`(lecturer)/layout.tsx`)
+- Dashboard utama: statistik, distribusi status akademik, daftar mahasiswa berisiko, aksi cepat
+- Halaman daftar mahasiswa bimbingan dengan search (`/lecturer/students`)
+- Halaman detail mahasiswa: profil, 4 stat cards, indikator risiko, grafik IPK/IPS, histori nilai per semester (`/lecturer/students/[id]`)
+- Halaman monitoring risiko: grouped by status (Darurat, Perhatian, Aman) (`/lecturer/risk`)
+- Halaman kode bergabung: generate/copy kode, instruksi penggunaan (`/lecturer/join-code`)
+- Halaman profil dosen (`/lecturer/profile`)
+
+---
+
+## PHASE 2 — SELESAI (100%)
 
 ### Target: Minggu 5–9
 

@@ -1,0 +1,146 @@
+- generic [active] [ref=f106e1]:
+  - generic [ref=f106e2]:
+    - generic [ref=f106e6]:
+      - list [ref=f106e8]:
+        - listitem [ref=f106e9]:
+          - link "Gradely Admin Panel" [ref=f106e10] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - img [ref=f106e12]
+            - generic [ref=f106e15]:
+              - generic [ref=f106e16]: Gradely
+              - generic [ref=f106e17]: Admin Panel
+      - generic [ref=f106e18]:
+        - generic [ref=f106e19]:
+          - generic [ref=f106e20]: Utama
+          - list [ref=f106e21]:
+            - listitem [ref=f106e22]:
+              - link "Dashboard" [ref=f106e23] [cursor=pointer]:
+                - /url: /admin/dashboard
+                - img [ref=f106e24]
+                - generic [ref=f106e29]: Dashboard
+        - generic [ref=f106e30]:
+          - generic [ref=f106e31]: Pengguna
+          - list [ref=f106e32]:
+            - listitem [ref=f106e33]:
+              - link "Mahasiswa" [ref=f106e34] [cursor=pointer]:
+                - /url: /admin/users/students
+                - img [ref=f106e35]
+                - generic [ref=f106e40]: Mahasiswa
+              - button "Toggle" [ref=f106e41] [cursor=pointer]:
+                - img [ref=f106e42]
+                - generic [ref=f106e44]: Toggle
+            - listitem [ref=f106e45]:
+              - link "Dosen Wali" [ref=f106e46] [cursor=pointer]:
+                - /url: /admin/users/lecturers
+                - img [ref=f106e47]
+                - generic [ref=f106e52]: Dosen Wali
+              - button "Toggle" [ref=f106e53] [cursor=pointer]:
+                - img [ref=f106e54]
+                - generic [ref=f106e56]: Toggle
+            - listitem [ref=f106e57]:
+              - link "Perusahaan" [ref=f106e58] [cursor=pointer]:
+                - /url: /admin/users/companies
+                - img [ref=f106e59]
+                - generic [ref=f106e63]: Perusahaan
+              - button "Toggle" [ref=f106e64] [cursor=pointer]:
+                - img [ref=f106e65]
+                - generic [ref=f106e67]: Toggle
+        - generic [ref=f106e68]:
+          - generic [ref=f106e69]: Akademik
+          - list [ref=f106e70]:
+            - listitem [ref=f106e71]:
+              - link "Program Studi" [ref=f106e72] [cursor=pointer]:
+                - /url: /admin/study-programs
+                - img [ref=f106e73]
+                - generic [ref=f106e75]: Program Studi
+            - listitem [ref=f106e76]:
+              - link "Aturan Akademik" [ref=f106e77] [cursor=pointer]:
+                - /url: /admin/academic-rules
+                - img [ref=f106e78]
+                - generic [ref=f106e80]: Aturan Akademik
+        - generic [ref=f106e81]:
+          - generic [ref=f106e82]: Konfigurasi
+          - list [ref=f106e83]:
+            - listitem [ref=f106e84]:
+              - link "Konfigurasi WAHA" [ref=f106e85] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=f106e86]
+                - generic [ref=f106e88]: Konfigurasi WAHA
+            - listitem [ref=f106e89]:
+              - link "Pengaturan Umum" [ref=f106e90] [cursor=pointer]:
+                - /url: /admin/settings/general
+                - img [ref=f106e91]
+                - generic [ref=f106e94]: Pengaturan Umum
+      - list [ref=f106e96]:
+        - listitem [ref=f106e97]:
+          - button "BS Budi Santoso admin@isi.ac.id" [ref=f106e98] [cursor=pointer]:
+            - generic [ref=f106e100]: BS
+            - generic [ref=f106e101]:
+              - generic [ref=f106e102]: Budi Santoso
+              - generic [ref=f106e103]: admin@isi.ac.id
+            - img [ref=f106e104]
+    - main [ref=f106e107]:
+      - generic [ref=f106e109]:
+        - button "Toggle Sidebar" [ref=f106e110] [cursor=pointer]:
+          - img
+          - generic [ref=f106e111]: Toggle Sidebar
+        - separator
+        - navigation [ref=f106e112]:
+          - generic [ref=f106e114]: Pengguna
+          - generic [ref=f106e115]:
+            - img [ref=f106e116]
+            - button "Mahasiswa" [ref=f106e118] [cursor=pointer]
+          - generic [ref=f106e119]:
+            - img [ref=f106e120]
+            - generic [ref=f106e122]: Import CSV
+      - main [ref=f106e125]:
+        - generic [ref=f106e126]:
+          - generic [ref=f106e127]:
+            - generic [ref=f106e128]:
+              - heading "Import Akun via CSV" [level=1] [ref=f106e129]
+              - paragraph [ref=f106e130]: Upload file CSV untuk membuat banyak akun sekaligus
+            - button "Download Template" [ref=f106e131] [cursor=pointer]:
+              - img
+              - text: Download Template
+          - generic [ref=f106e132]:
+            - generic [ref=f106e134]:
+              - generic [ref=f106e135]:
+                - generic [ref=f106e136]:
+                  - img [ref=f106e137]
+                  - text: Format CSV
+                - generic [ref=f106e140]: Kolom yang diperlukan dalam file
+              - generic [ref=f106e141]:
+                - generic [ref=f106e142]:
+                  - paragraph [ref=f106e143]: Wajib
+                  - generic [ref=f106e144]:
+                    - code [ref=f106e145]: full_name
+                    - code [ref=f106e146]: email
+                    - code [ref=f106e147]: role
+                - separator
+                - generic [ref=f106e148]:
+                  - paragraph [ref=f106e149]: Opsional
+                  - generic [ref=f106e150]:
+                    - code [ref=f106e151]: nim
+                    - code [ref=f106e152]: phone
+                    - code [ref=f106e153]: study_program_id
+                    - code [ref=f106e154]: current_semester
+                - separator
+                - generic [ref=f106e155]:
+                  - paragraph [ref=f106e156]: Nilai role
+                  - generic [ref=f106e157]:
+                    - code [ref=f106e158]: student
+                    - code [ref=f106e159]: lecturer
+                    - code [ref=f106e160]: admin
+                - generic [ref=f106e161]:
+                  - img [ref=f106e162]
+                  - paragraph [ref=f106e164]:
+                    - text: "Password default:"
+                    - strong [ref=f106e165]: Gradely@2024
+                    - text: . Minta pengguna mengubah setelah login pertama.
+            - generic [ref=f106e167] [cursor=pointer]:
+              - img [ref=f106e169]
+              - generic [ref=f106e172]:
+                - paragraph [ref=f106e173]: Drag & drop file CSV di sini
+                - paragraph [ref=f106e174]: atau klik untuk memilih file
+              - generic: Hanya file .csv
+  - region "Notifications alt+T"

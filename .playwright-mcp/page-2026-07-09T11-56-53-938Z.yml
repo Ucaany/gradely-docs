@@ -1,0 +1,6 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - heading "Dashboard Perusahaan" [level=1] [ref=e3]
+    - paragraph [ref=e4]: Fitur ini akan tersedia di Phase 4.
+  - region "Notifications alt+T"
+  - alert [ref=e5]

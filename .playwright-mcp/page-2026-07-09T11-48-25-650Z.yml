@@ -1,0 +1,257 @@
+- generic [active] [ref=f103e1]:
+  - generic [ref=f103e2]:
+    - generic [ref=f103e6]:
+      - list [ref=f103e8]:
+        - listitem [ref=f103e9]:
+          - link "Gradely Admin Panel" [ref=f103e10] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - img [ref=f103e12]
+            - generic [ref=f103e15]:
+              - generic [ref=f103e16]: Gradely
+              - generic [ref=f103e17]: Admin Panel
+      - generic [ref=f103e18]:
+        - generic [ref=f103e19]:
+          - generic [ref=f103e20]: Utama
+          - list [ref=f103e21]:
+            - listitem [ref=f103e22]:
+              - link "Dashboard" [ref=f103e23] [cursor=pointer]:
+                - /url: /admin/dashboard
+                - img [ref=f103e24]
+                - generic [ref=f103e29]: Dashboard
+        - generic [ref=f103e30]:
+          - generic [ref=f103e31]: Pengguna
+          - list [ref=f103e32]:
+            - listitem [ref=f103e33]:
+              - link "Mahasiswa" [ref=f103e34] [cursor=pointer]:
+                - /url: /admin/users/students
+                - img [ref=f103e35]
+                - generic [ref=f103e40]: Mahasiswa
+              - button "Toggle" [ref=f103e41] [cursor=pointer]:
+                - img [ref=f103e42]
+                - generic [ref=f103e44]: Toggle
+            - listitem [ref=f103e45]:
+              - link "Dosen Wali" [ref=f103e46] [cursor=pointer]:
+                - /url: /admin/users/lecturers
+                - img [ref=f103e47]
+                - generic [ref=f103e52]: Dosen Wali
+              - button "Toggle" [ref=f103e53] [cursor=pointer]:
+                - img [ref=f103e54]
+                - generic [ref=f103e56]: Toggle
+            - listitem [ref=f103e57]:
+              - link "Perusahaan" [ref=f103e58] [cursor=pointer]:
+                - /url: /admin/users/companies
+                - img [ref=f103e59]
+                - generic [ref=f103e63]: Perusahaan
+              - button "Toggle" [ref=f103e64] [cursor=pointer]:
+                - img [ref=f103e65]
+                - generic [ref=f103e67]: Toggle
+        - generic [ref=f103e68]:
+          - generic [ref=f103e69]: Akademik
+          - list [ref=f103e70]:
+            - listitem [ref=f103e71]:
+              - link "Program Studi" [ref=f103e72] [cursor=pointer]:
+                - /url: /admin/study-programs
+                - img [ref=f103e73]
+                - generic [ref=f103e75]: Program Studi
+            - listitem [ref=f103e76]:
+              - link "Aturan Akademik" [ref=f103e77] [cursor=pointer]:
+                - /url: /admin/academic-rules
+                - img [ref=f103e78]
+                - generic [ref=f103e80]: Aturan Akademik
+        - generic [ref=f103e81]:
+          - generic [ref=f103e82]: Konfigurasi
+          - list [ref=f103e83]:
+            - listitem [ref=f103e84]:
+              - link "Konfigurasi WAHA" [ref=f103e85] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=f103e86]
+                - generic [ref=f103e88]: Konfigurasi WAHA
+            - listitem [ref=f103e89]:
+              - link "Pengaturan Umum" [ref=f103e90] [cursor=pointer]:
+                - /url: /admin/settings/general
+                - img [ref=f103e91]
+                - generic [ref=f103e94]: Pengaturan Umum
+      - list [ref=f103e96]:
+        - listitem [ref=f103e97]:
+          - button "BS Budi Santoso admin@isi.ac.id" [ref=f103e98] [cursor=pointer]:
+            - generic [ref=f103e100]: BS
+            - generic [ref=f103e101]:
+              - generic [ref=f103e102]: Budi Santoso
+              - generic [ref=f103e103]: admin@isi.ac.id
+            - img [ref=f103e104]
+    - main [ref=f103e107]:
+      - generic [ref=f103e109]:
+        - button "Toggle Sidebar" [ref=f103e110] [cursor=pointer]:
+          - img
+          - generic [ref=f103e111]: Toggle Sidebar
+        - separator
+        - navigation [ref=f103e112]:
+          - generic [ref=f103e114]: Dashboard
+      - main [ref=f103e117]:
+        - generic [ref=f103e118]:
+          - generic [ref=f103e119]:
+            - heading "Dashboard Admin" [level=1] [ref=f103e120]
+            - paragraph [ref=f103e121]: Ringkasan data platform Gradely — ISI Yogyakarta
+          - generic [ref=f103e122]:
+            - generic [ref=f103e123]:
+              - generic [ref=f103e124]:
+                - generic [ref=f103e125]: Total Mahasiswa
+                - img [ref=f103e126]
+              - generic [ref=f103e129]:
+                - generic [ref=f103e130]: "1"
+                - paragraph [ref=f103e131]: Mahasiswa aktif
+                - generic [ref=f103e132]:
+                  - img [ref=f103e133]
+                  - generic [ref=f103e136]: +2.5% dari bulan lalu
+            - generic [ref=f103e137]:
+              - generic [ref=f103e138]:
+                - generic [ref=f103e139]: Dosen Wali
+                - img [ref=f103e140]
+              - generic [ref=f103e145]:
+                - generic [ref=f103e146]: "0"
+                - paragraph [ref=f103e147]: Dosen aktif
+                - generic [ref=f103e148]:
+                  - img [ref=f103e149]
+                  - generic [ref=f103e152]: +0% dari bulan lalu
+            - generic [ref=f103e153]:
+              - generic [ref=f103e154]:
+                - generic [ref=f103e155]: Program Studi
+                - img [ref=f103e156]
+              - generic [ref=f103e158]:
+                - generic [ref=f103e159]: "8"
+                - paragraph [ref=f103e160]: Prodi aktif
+                - generic [ref=f103e161]:
+                  - img [ref=f103e162]
+                  - generic [ref=f103e165]: +0% dari bulan lalu
+            - generic [ref=f103e166]:
+              - generic [ref=f103e167]:
+                - generic [ref=f103e168]: Perusahaan Mitra
+                - img [ref=f103e169]
+              - generic [ref=f103e173]:
+                - generic [ref=f103e174]: "0"
+                - paragraph [ref=f103e175]: Perusahaan terdaftar
+                - generic [ref=f103e176]:
+                  - img [ref=f103e177]
+                  - generic [ref=f103e180]: +1.2% dari bulan lalu
+          - generic [ref=f103e181]:
+            - generic [ref=f103e184]:
+              - generic [ref=f103e185]: Rata-rata IPK & IPS Mahasiswa
+              - generic [ref=f103e186]: Memuat data...
+            - generic [ref=f103e190]:
+              - generic [ref=f103e191]:
+                - generic [ref=f103e192]: Status Sistem
+                - generic [ref=f103e193]: Kondisi layanan saat ini
+              - generic [ref=f103e194]:
+                - generic [ref=f103e195]:
+                  - generic [ref=f103e196]:
+                    - generic [ref=f103e197]:
+                      - img [ref=f103e198]
+                      - generic [ref=f103e201]: Database
+                    - generic [ref=f103e202]: Aktif
+                  - separator
+                - generic [ref=f103e203]:
+                  - generic [ref=f103e204]:
+                    - generic [ref=f103e205]:
+                      - img [ref=f103e206]
+                      - generic [ref=f103e209]: Autentikasi
+                    - generic [ref=f103e210]: Aktif
+                  - separator
+                - generic [ref=f103e212]:
+                  - generic [ref=f103e213]:
+                    - img [ref=f103e214]
+                    - generic [ref=f103e217]: Notifikasi WhatsApp
+                  - generic [ref=f103e218]: Aktif
+          - generic [ref=f103e219]:
+            - generic [ref=f103e220]:
+              - generic [ref=f103e221]:
+                - generic [ref=f103e222]: Aksi Cepat
+                - generic [ref=f103e223]: Pintasan ke fitur yang sering digunakan
+              - generic [ref=f103e224]:
+                - link "Tambah Mahasiswa Daftarkan mahasiswa baru" [ref=f103e225] [cursor=pointer]:
+                  - /url: /admin/users/students/new
+                  - generic [ref=f103e226]:
+                    - img [ref=f103e228]
+                    - img [ref=f103e231]
+                  - generic [ref=f103e233]:
+                    - paragraph [ref=f103e234]: Tambah Mahasiswa
+                    - paragraph [ref=f103e235]: Daftarkan mahasiswa baru
+                - link "Tambah Dosen Wali Daftarkan dosen wali baru" [ref=f103e236] [cursor=pointer]:
+                  - /url: /admin/users/lecturers/new
+                  - generic [ref=f103e237]:
+                    - img [ref=f103e239]
+                    - img [ref=f103e242]
+                  - generic [ref=f103e244]:
+                    - paragraph [ref=f103e245]: Tambah Dosen Wali
+                    - paragraph [ref=f103e246]: Daftarkan dosen wali baru
+                - link "Aturan Akademik Kelola aturan akademik" [ref=f103e247] [cursor=pointer]:
+                  - /url: /admin/academic-rules
+                  - generic [ref=f103e248]:
+                    - img [ref=f103e250]
+                    - img [ref=f103e253]
+                  - generic [ref=f103e255]:
+                    - paragraph [ref=f103e256]: Aturan Akademik
+                    - paragraph [ref=f103e257]: Kelola aturan akademik
+                - link "Import CSV Import data dari file CSV" [ref=f103e258] [cursor=pointer]:
+                  - /url: /admin/users/import
+                  - generic [ref=f103e259]:
+                    - img [ref=f103e261]
+                    - img [ref=f103e265]
+                  - generic [ref=f103e267]:
+                    - paragraph [ref=f103e268]: Import CSV
+                    - paragraph [ref=f103e269]: Import data dari file CSV
+            - generic [ref=f103e270]:
+              - generic [ref=f103e271]:
+                - generic [ref=f103e272]:
+                  - generic [ref=f103e273]: Mahasiswa Terbaru
+                  - generic [ref=f103e274]: 5 mahasiswa terakhir didaftarkan
+                - link "Lihat riwayat" [ref=f103e275] [cursor=pointer]:
+                  - /url: /admin/users/students
+                  - text: Lihat riwayat
+                  - img
+              - table [ref=f103e278]:
+                - rowgroup [ref=f103e279]:
+                  - row "Mahasiswa NIM Status" [ref=f103e280]:
+                    - columnheader "Mahasiswa" [ref=f103e281]
+                    - columnheader "NIM" [ref=f103e282]
+                    - columnheader "Status" [ref=f103e283]
+                - rowgroup [ref=f103e284]:
+                  - row "TM Test Mahasiswa testmahasiswa123@test.com 2021001 Aktif" [ref=f103e285]:
+                    - cell "TM Test Mahasiswa testmahasiswa123@test.com" [ref=f103e286]:
+                      - generic [ref=f103e287]:
+                        - generic [ref=f103e289]: TM
+                        - generic [ref=f103e290]:
+                          - paragraph [ref=f103e291]: Test Mahasiswa
+                          - paragraph [ref=f103e292]: testmahasiswa123@test.com
+                    - cell "2021001" [ref=f103e293]
+                    - cell "Aktif" [ref=f103e294]:
+                      - generic [ref=f103e295]: Aktif
+          - generic [ref=f103e296]:
+            - generic [ref=f103e297]:
+              - generic [ref=f103e298]:
+                - generic [ref=f103e299]:
+                  - img [ref=f103e300]
+                  - text: Riwayat Pesan WhatsApp
+                - generic [ref=f103e302]: 24 Jam Terakhir · 0 pesan
+              - generic [ref=f103e303]:
+                - generic [ref=f103e304]:
+                  - link "24 Jam" [ref=f103e305] [cursor=pointer]:
+                    - /url: "?period=24h"
+                  - link "1 Minggu" [ref=f103e306] [cursor=pointer]:
+                    - /url: "?period=1w"
+                  - link "Semua" [ref=f103e307] [cursor=pointer]:
+                    - /url: "?period=all"
+                - link "Pengaturan" [ref=f103e308] [cursor=pointer]:
+                  - /url: /admin/settings
+                  - text: Pengaturan
+                  - img
+            - table [ref=f103e312]:
+              - rowgroup [ref=f103e313]:
+                - row "No. HP Pesan Status Waktu" [ref=f103e314]:
+                  - columnheader "No. HP" [ref=f103e315]
+                  - columnheader "Pesan" [ref=f103e316]
+                  - columnheader "Status" [ref=f103e317]
+                  - columnheader "Waktu" [ref=f103e318]
+              - rowgroup [ref=f103e319]:
+                - row "Tidak ada pesan pada periode 24 jam terakhir" [ref=f103e320]:
+                  - cell "Tidak ada pesan pada periode 24 jam terakhir" [ref=f103e321]
+  - region "Notifications alt+T"

@@ -1,0 +1,233 @@
+- generic:
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - list:
+              - listitem:
+                - link:
+                  - /url: /admin/dashboard
+                  - generic:
+                    - img
+                  - generic:
+                    - generic: Gradely
+                    - generic: Admin Panel
+          - generic:
+            - generic:
+              - generic: Utama
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /admin/dashboard
+                    - img
+                    - generic: Dashboard
+            - generic:
+              - generic: Pengguna
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /admin/users/students
+                    - img
+                    - generic: Mahasiswa
+                  - button [expanded]:
+                    - img
+                    - generic: Toggle
+                  - generic:
+                    - list:
+                      - listitem:
+                        - link:
+                          - /url: /admin/users/students
+                          - generic: Daftar Mahasiswa
+                      - listitem:
+                        - link:
+                          - /url: /admin/users/students/new
+                          - generic: Tambah Mahasiswa
+                      - listitem:
+                        - link:
+                          - /url: /admin/users/import
+                          - generic: Import CSV
+                - listitem:
+                  - link:
+                    - /url: /admin/users/lecturers
+                    - img
+                    - generic: Dosen Wali
+                  - button:
+                    - img
+                    - generic: Toggle
+                - listitem:
+                  - link:
+                    - /url: /admin/users/companies
+                    - img
+                    - generic: Perusahaan
+                  - button:
+                    - img
+                    - generic: Toggle
+            - generic:
+              - generic: Akademik
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /admin/study-programs
+                    - img
+                    - generic: Program Studi
+                - listitem:
+                  - link:
+                    - /url: /admin/academic-rules
+                    - img
+                    - generic: Aturan Akademik
+            - generic:
+              - generic: Konfigurasi
+              - list:
+                - listitem:
+                  - link:
+                    - /url: /admin/settings
+                    - img
+                    - generic: Konfigurasi WAHA
+                - listitem:
+                  - link:
+                    - /url: /admin/settings/general
+                    - img
+                    - generic: Pengaturan Umum
+          - generic:
+            - list:
+              - listitem:
+                - button:
+                  - generic:
+                    - generic: BS
+                  - generic:
+                    - generic: Budi Santoso
+                    - generic: admin@isi.ac.id
+                  - img
+    - main:
+      - generic:
+        - generic:
+          - button:
+            - img
+            - generic: Toggle Sidebar
+          - navigation:
+            - generic:
+              - generic: Pengguna
+            - generic:
+              - img
+              - button: Mahasiswa
+            - generic:
+              - img
+              - generic: Detail
+        - generic:
+          - button:
+            - img
+      - main:
+        - generic:
+          - generic:
+            - heading [level=1]: Detail Mahasiswa
+            - paragraph: Informasi lengkap akun mahasiswa
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: TM
+                  - generic:
+                    - generic:
+                      - generic: Test Mahasiswa
+                      - generic: Aktif
+                    - generic: testmahasiswa123@test.com
+                - generic:
+                  - generic:
+                    - button [expanded]:
+                      - img
+                      - text: Edit
+                    - button:
+                      - img
+                      - text: Hapus
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: NIM
+                  - paragraph: "-"
+                - generic:
+                  - paragraph: No. HP
+                  - paragraph: "-"
+                - generic:
+                  - paragraph: Program Studi
+                  - paragraph: "-"
+                - generic:
+                  - paragraph: Semester Aktif
+                  - paragraph: "-"
+                - generic:
+                  - paragraph: Jenis Semester
+                  - paragraph: Ganjil
+                - generic:
+                  - paragraph: Universitas
+                  - paragraph: Institut Seni Indonesia Yogyakarta
+                - generic:
+                  - paragraph: Terdaftar
+                  - paragraph: 9 Juli 2026
+                - generic:
+                  - paragraph: Profil ke Perusahaan
+                  - paragraph: Tersembunyi
+  - region "Notifications alt+T"
+  - alert
+  - dialog:
+    - generic:
+      - heading [level=2]: Edit Data Pengguna
+      - paragraph: Perbarui data pengguna
+    - generic:
+      - generic:
+        - generic:
+          - generic: Nama Lengkap
+          - textbox: Test Mahasiswa
+        - generic:
+          - generic:
+            - generic: NIM
+            - textbox: "2021001"
+          - generic:
+            - generic: Semester
+            - spinbutton: "3"
+          - generic:
+            - generic: Jenis Semester Aktif
+            - combobox:
+              - generic: Ganjil
+              - img
+            - combobox
+        - generic:
+          - generic: No. HP
+          - textbox: "081234567890"
+        - generic:
+          - generic: Program Studi
+          - combobox [expanded]:
+            - generic: Pilih program studi
+            - img
+          - combobox
+        - generic:
+          - generic: Status
+          - combobox:
+            - generic: Aktif
+            - img
+          - combobox
+      - generic:
+        - button: Batal
+        - button: Simpan
+    - button:
+      - img
+      - generic: Close
+  - listbox [ref=f96e230]:
+    - option "Animasi" [active] [ref=f96e231]:
+      - generic [ref=f96e233]: Animasi
+    - option "Desain Interior" [ref=f96e234]:
+      - generic [ref=f96e236]: Desain Interior
+    - option "Desain Komunikasi Visual" [ref=f96e237]:
+      - generic [ref=f96e239]: Desain Komunikasi Visual
+    - option "Film dan Televisi" [ref=f96e240]:
+      - generic [ref=f96e242]: Film dan Televisi
+    - option "Fotografi" [ref=f96e243]:
+      - generic [ref=f96e245]: Fotografi
+    - option "Kriya" [ref=f96e246]:
+      - generic [ref=f96e248]: Kriya
+    - option "Seni Musik" [ref=f96e249]:
+      - generic [ref=f96e251]: Seni Musik
+    - option "Seni Tari" [ref=f96e252]:
+      - generic [ref=f96e254]: Seni Tari
+    - option "Teater" [ref=f96e255]:
+      - generic [ref=f96e257]: Teater

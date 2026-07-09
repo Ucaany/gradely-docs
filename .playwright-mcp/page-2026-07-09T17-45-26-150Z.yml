@@ -1,0 +1,6 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - heading "Dashboard Dosen Wali" [level=1] [ref=f1e3]
+    - paragraph [ref=f1e4]: Fitur ini akan tersedia di Phase 3.
+  - region "Notifications alt+T"
+  - alert [ref=f1e5]

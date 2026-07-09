@@ -1,0 +1,189 @@
+- generic [active] [ref=f95e1]:
+  - generic [ref=f95e2]:
+    - generic [ref=f95e88]:
+      - list [ref=f95e90]:
+        - listitem [ref=f95e91]:
+          - link "Gradely Admin Panel" [ref=f95e92] [cursor=pointer]:
+            - /url: /admin/dashboard
+            - img [ref=f95e94]
+            - generic [ref=f95e97]:
+              - generic [ref=f95e98]: Gradely
+              - generic [ref=f95e99]: Admin Panel
+      - generic [ref=f95e100]:
+        - generic [ref=f95e101]:
+          - generic [ref=f95e102]: Utama
+          - list [ref=f95e103]:
+            - listitem [ref=f95e104]:
+              - link "Dashboard" [ref=f95e105] [cursor=pointer]:
+                - /url: /admin/dashboard
+                - img [ref=f95e106]
+                - generic [ref=f95e111]: Dashboard
+        - generic [ref=f95e112]:
+          - generic [ref=f95e113]: Pengguna
+          - list [ref=f95e114]:
+            - listitem [ref=f95e115]:
+              - link "Mahasiswa" [ref=f95e116] [cursor=pointer]:
+                - /url: /admin/users/students
+                - img [ref=f95e117]
+                - generic [ref=f95e122]: Mahasiswa
+              - button "Toggle" [expanded] [ref=f95e123] [cursor=pointer]:
+                - img [ref=f95e124]
+                - generic [ref=f95e126]: Toggle
+              - list [ref=f95e128]:
+                - listitem [ref=f95e129]:
+                  - link "Daftar Mahasiswa" [ref=f95e130] [cursor=pointer]:
+                    - /url: /admin/users/students
+                    - generic [ref=f95e131]: Daftar Mahasiswa
+                - listitem [ref=f95e132]:
+                  - link "Tambah Mahasiswa" [ref=f95e133] [cursor=pointer]:
+                    - /url: /admin/users/students/new
+                    - generic [ref=f95e134]: Tambah Mahasiswa
+                - listitem [ref=f95e135]:
+                  - link "Import CSV" [ref=f95e136] [cursor=pointer]:
+                    - /url: /admin/users/import
+                    - generic [ref=f95e137]: Import CSV
+            - listitem [ref=f95e138]:
+              - link "Dosen Wali" [ref=f95e139] [cursor=pointer]:
+                - /url: /admin/users/lecturers
+                - img [ref=f95e140]
+                - generic [ref=f95e145]: Dosen Wali
+              - button "Toggle" [ref=f95e146] [cursor=pointer]:
+                - img [ref=f95e147]
+                - generic [ref=f95e149]: Toggle
+            - listitem [ref=f95e150]:
+              - link "Perusahaan" [ref=f95e151] [cursor=pointer]:
+                - /url: /admin/users/companies
+                - img [ref=f95e152]
+                - generic [ref=f95e156]: Perusahaan
+              - button "Toggle" [ref=f95e157] [cursor=pointer]:
+                - img [ref=f95e158]
+                - generic [ref=f95e160]: Toggle
+        - generic [ref=f95e161]:
+          - generic [ref=f95e162]: Akademik
+          - list [ref=f95e163]:
+            - listitem [ref=f95e164]:
+              - link "Program Studi" [ref=f95e165] [cursor=pointer]:
+                - /url: /admin/study-programs
+                - img [ref=f95e166]
+                - generic [ref=f95e168]: Program Studi
+            - listitem [ref=f95e169]:
+              - link "Aturan Akademik" [ref=f95e170] [cursor=pointer]:
+                - /url: /admin/academic-rules
+                - img [ref=f95e171]
+                - generic [ref=f95e173]: Aturan Akademik
+        - generic [ref=f95e174]:
+          - generic [ref=f95e175]: Konfigurasi
+          - list [ref=f95e176]:
+            - listitem [ref=f95e177]:
+              - link "Konfigurasi WAHA" [ref=f95e178] [cursor=pointer]:
+                - /url: /admin/settings
+                - img [ref=f95e179]
+                - generic [ref=f95e181]: Konfigurasi WAHA
+            - listitem [ref=f95e182]:
+              - link "Pengaturan Umum" [ref=f95e183] [cursor=pointer]:
+                - /url: /admin/settings/general
+                - img [ref=f95e184]
+                - generic [ref=f95e187]: Pengaturan Umum
+      - list [ref=f95e189]:
+        - listitem [ref=f95e190]:
+          - button "BS Budi Santoso admin@isi.ac.id" [ref=f95e191] [cursor=pointer]:
+            - generic [ref=f95e193]: BS
+            - generic [ref=f95e194]:
+              - generic [ref=f95e195]: Budi Santoso
+              - generic [ref=f95e196]: admin@isi.ac.id
+            - img [ref=f95e197]
+    - main [ref=f95e3]:
+      - generic [ref=f95e4]:
+        - generic [ref=f95e5]:
+          - button "Toggle Sidebar" [ref=f95e6] [cursor=pointer]:
+            - img
+            - generic [ref=f95e7]: Toggle Sidebar
+          - separator
+          - navigation [ref=f95e8]:
+            - generic [ref=f95e10]: Pengguna
+            - generic [ref=f95e11]:
+              - img [ref=f95e12]
+              - button "Mahasiswa" [ref=f95e14] [cursor=pointer]
+            - generic [ref=f95e15]:
+              - img [ref=f95e16]
+              - generic [ref=f95e18]: Tambah
+        - button "Mode Terang" [ref=f95e80] [cursor=pointer]:
+          - img
+      - main [ref=f95e21]:
+        - generic [ref=f95e22]:
+          - generic [ref=f95e23]:
+            - heading "Tambah Mahasiswa" [level=1] [ref=f95e24]
+            - paragraph [ref=f95e25]: Buat akun baru untuk mahasiswa
+          - generic [ref=f95e26]:
+            - generic [ref=f95e27]:
+              - generic [ref=f95e28]:
+                - generic [ref=f95e29]: Informasi Akun
+                - generic [ref=f95e30]: Data login pengguna
+              - generic [ref=f95e31]:
+                - generic [ref=f95e32]:
+                  - generic [ref=f95e33]:
+                    - text: Nama Lengkap
+                    - generic [ref=f95e34]: "*"
+                  - textbox "Nama Lengkap *" [ref=f95e35]:
+                    - /placeholder: Nama lengkap
+                    - text: Test Mahasiswa
+                - generic [ref=f95e36]:
+                  - generic [ref=f95e37]:
+                    - text: Email
+                    - generic [ref=f95e38]: "*"
+                  - textbox "Email *" [ref=f95e39]:
+                    - /placeholder: email@isi.ac.id
+                    - text: testmahasiswa123@test.com
+                - generic [ref=f95e40]:
+                  - generic [ref=f95e41]:
+                    - text: Password
+                    - generic [ref=f95e42]: "*"
+                  - textbox "Password *" [ref=f95e43]:
+                    - /placeholder: Min. 8 karakter
+                    - text: password123
+                - generic [ref=f95e44]:
+                  - generic [ref=f95e45]: No. HP
+                  - textbox "No. HP" [ref=f95e46]:
+                    - /placeholder: 08xxxxxxxxxx
+            - generic [ref=f95e47]:
+              - generic [ref=f95e48]:
+                - generic [ref=f95e49]: Informasi Akademik
+                - generic [ref=f95e50]: Data akademik dan peran pengguna
+              - generic [ref=f95e51]:
+                - generic [ref=f95e52]:
+                  - generic [ref=f95e53]:
+                    - text: Role
+                    - generic [ref=f95e54]: "*"
+                  - combobox "Role *" [ref=f95e55] [cursor=pointer]:
+                    - generic: Mahasiswa
+                    - img [ref=f95e56]
+                  - combobox [ref=f95e81]
+                - generic [ref=f95e59]:
+                  - generic [ref=f95e60]: Program Studi
+                  - combobox "Program Studi" [ref=f95e61] [cursor=pointer]:
+                    - generic: Pilih program studi
+                    - img [ref=f95e62]
+                  - combobox [ref=f95e82]
+                - separator
+                - generic [ref=f95e65]:
+                  - generic [ref=f95e66]: NIM
+                  - textbox "NIM" [ref=f95e67]:
+                    - /placeholder: Nomor Induk Mahasiswa
+                - generic [ref=f95e68]:
+                  - generic [ref=f95e69]: Semester Aktif
+                  - spinbutton "Semester Aktif" [ref=f95e70]
+                - generic [ref=f95e71]:
+                  - generic [ref=f95e72]: Jenis Semester Aktif
+                  - combobox "Jenis Semester Aktif" [ref=f95e73] [cursor=pointer]:
+                    - generic: Ganjil
+                    - img [ref=f95e74]
+                  - combobox [ref=f95e83]
+            - generic [ref=f95e77]:
+              - button "Batal" [ref=f95e78] [cursor=pointer]
+              - button "Buat Akun" [ref=f95e79] [cursor=pointer]
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f95e200]:
+        - img [ref=f95e202]
+        - generic [ref=f95e206]: Akun berhasil dibuat!
+  - alert [ref=f95e84]

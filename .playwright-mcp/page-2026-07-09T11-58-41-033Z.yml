@@ -1,0 +1,57 @@
+- generic [active] [ref=f4e1]:
+  - main [ref=f4e2]:
+    - generic [ref=f4e59]:
+      - generic [ref=f4e61]:
+        - img [ref=f4e63]
+        - generic [ref=f4e66]: Gradely
+      - blockquote [ref=f4e68]:
+        - paragraph [ref=f4e69]: "\"Dari ruang kelas menuju karier — semua perjalanan akademikmu tercatat dengan baik.\""
+        - generic [ref=f4e70]: ~ Tim Gradely
+      - generic [ref=f4e71]:
+        - generic:
+          - img "Background Paths"
+        - generic:
+          - img "Background Paths"
+    - generic [ref=f4e7]:
+      - generic [ref=f4e14]:
+        - heading "Selamat Datang" [level=1] [ref=f4e15]
+        - paragraph [ref=f4e16]: Masuk ke akun Anda untuk melanjutkan
+      - generic [ref=f4e17]:
+        - generic [ref=f4e18]:
+          - generic [ref=f4e19]: Email
+          - textbox "Email" [ref=f4e20]:
+            - /placeholder: nama@email.com
+            - text: admin@isi.ac.id
+        - generic [ref=f4e21]:
+          - generic [ref=f4e22]:
+            - generic [ref=f4e23]: Password
+            - link "Lupa password?" [ref=f4e24] [cursor=pointer]:
+              - /url: /reset-password
+          - generic [ref=f4e25]:
+            - textbox "Password" [ref=f4e26]:
+              - /placeholder: ••••••••
+              - text: admin123
+            - button [ref=f4e27] [cursor=pointer]:
+              - img [ref=f4e28]
+        - button "Masuk" [ref=f4e31] [cursor=pointer]
+      - generic [ref=f4e36]: Login sebagai
+      - generic [ref=f4e37]:
+        - button "Mahasiswa" [ref=f4e38] [cursor=pointer]:
+          - img [ref=f4e39]
+          - text: Mahasiswa
+        - button "Dosen Wali" [ref=f4e44] [cursor=pointer]:
+          - img [ref=f4e45]
+          - text: Dosen Wali
+        - button "Admin" [ref=f4e48] [cursor=pointer]:
+          - img [ref=f4e49]
+          - text: Admin
+        - button "Industri" [ref=f4e53] [cursor=pointer]:
+          - img [ref=f4e54]
+          - text: Industri
+      - paragraph [ref=f4e57]: Belum punya akun? Hubungi Admin
+  - region "Notifications alt+T":
+    - list:
+      - listitem [ref=f4e72]:
+        - img [ref=f4e74]
+        - generic [ref=f4e77]: Email atau password salah
+  - alert [ref=f4e58]
