@@ -1,0 +1,42 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - img [ref=e6]
+      - generic [ref=e9]: Gradely
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - img [ref=e16]
+        - heading "Masuk ke Gradely" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Platform Monitoring Akademik ISI Yogyakarta
+      - generic [ref=e21]:
+        - tablist [ref=e22]:
+          - tab "Mahasiswa" [selected] [ref=e23] [cursor=pointer]:
+            - img
+            - generic [ref=e24]: Mahasiswa
+          - tab "Dosen" [ref=e25] [cursor=pointer]:
+            - img
+            - generic [ref=e26]: Dosen
+          - tab "Kampus" [ref=e27] [cursor=pointer]:
+            - img
+            - generic [ref=e28]: Kampus
+          - tab "Mitra" [ref=e29] [cursor=pointer]:
+            - img
+            - generic [ref=e30]: Mitra
+        - tabpanel [ref=e31]:
+          - generic [ref=e32]:
+            - paragraph [ref=e34]: Portal Mahasiswa
+            - group [ref=e35]:
+              - generic [ref=e36]: Email
+              - textbox "Email" [ref=e37]:
+                - /placeholder: nama@isi.ac.id
+            - group [ref=e38]:
+              - generic [ref=e39]:
+                - generic [ref=e40]: Password
+                - link "Lupa password?" [ref=e41] [cursor=pointer]:
+                  - /url: /reset-password
+              - textbox "Password" [ref=e42]:
+                - /placeholder: ••••••••
+            - button "Masuk" [ref=e43] [cursor=pointer]
+            - generic [ref=e44]: Belum punya akun? Hubungi Admin Kampus
+  - region "Notifications alt+T"
+  - alert [ref=e45]

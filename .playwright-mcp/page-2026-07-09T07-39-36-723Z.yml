@@ -1,0 +1,42 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e7]: Gradely
+      - generic [ref=f1e11]:
+        - generic [ref=f1e12]:
+          - img [ref=f1e14]
+          - heading "Masuk ke Gradely" [level=1] [ref=f1e17]
+          - paragraph [ref=f1e18]: Platform Monitoring Akademik ISI Yogyakarta
+        - generic [ref=f1e19]:
+          - generic [ref=f1e20]:
+            - generic [ref=f1e21]: Email
+            - textbox "Email" [ref=f1e22]:
+              - /placeholder: nama@isi.ac.id
+              - text: admin@isi.ac.id
+            - paragraph [ref=f1e47]: Invalid input
+          - generic [ref=f1e23]:
+            - generic [ref=f1e24]:
+              - generic [ref=f1e25]: Password
+              - link "Lupa password?" [ref=f1e26] [cursor=pointer]:
+                - /url: /reset-password
+            - textbox "Password" [ref=f1e27]:
+              - /placeholder: ••••••••
+              - text: Admin@Gradely2024
+            - paragraph [ref=f1e48]: Invalid input
+          - button "Masuk" [active] [ref=f1e28] [cursor=pointer]
+        - generic [ref=f1e29]: Belum punya akun? Hubungi Admin Kampus
+    - generic [ref=f1e33]:
+      - heading "Monitoring Akademik Lebih Mudah" [level=2] [ref=f1e34]
+      - paragraph [ref=f1e35]: Pantau perkembangan akademik, hitung progres kelulusan, dan bangun portofolio karier — semuanya dalam satu platform.
+      - generic [ref=f1e36]:
+        - generic [ref=f1e37]:
+          - paragraph [ref=f1e38]: 1,200+
+          - paragraph [ref=f1e39]: Mahasiswa
+        - generic [ref=f1e40]:
+          - paragraph [ref=f1e41]: "9"
+          - paragraph [ref=f1e42]: Program Studi
+        - generic [ref=f1e43]:
+          - paragraph [ref=f1e44]: 45+
+          - paragraph [ref=f1e45]: Dosen Wali
+  - region "Notifications alt+T"
+  - alert [ref=f1e46]

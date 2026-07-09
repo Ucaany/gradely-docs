@@ -1,0 +1,77 @@
+[     803ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/dashboard:0
+[     975ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[     989ms] Error: Cannot read properties of undefined (reading 'call')
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/(admin)/layout.tsx:7:73)
+    at (rsc)/./src/app/(admin)/layout.tsx (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\dashboard\page.js:348:1)
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at process.processTimers (node:internal/timers:538:9)
+    at async e7 (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:398677)
+    at async tS (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402230)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402791)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402922)
+    at async tO (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2320)
+    at async (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2989)
+[     986ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[   27992ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   28376ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   29612ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   30021ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   30220ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   31446ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   32670ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   33905ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   35547ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   37388ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   38618ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   39232ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   39568ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   40977ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   41441ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   41633ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   42799ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   44104ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   45635ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   46808ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   48041ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   49563ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   50763ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   51926ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   53075ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   53906ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   54588ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   55201ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   55410ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   55747ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   55949ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   56644ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   56846ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   58788ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   60032ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   61347ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   62540ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   63727ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   64973ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   66677ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   67901ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   69443ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   71192ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   72509ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   73992ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   75146ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   76322ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   78327ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   79774ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   80995ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   82502ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   83743ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   85051ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   86337ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   87631ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   88950ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   90570ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   91795ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   94931ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   96665ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0
+[   98246ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/admin/dashboard:0

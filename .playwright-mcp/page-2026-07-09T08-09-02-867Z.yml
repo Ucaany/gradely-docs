@@ -1,0 +1,71 @@
+- generic [active] [ref=f6e1]:
+  - generic [ref=f6e2]:
+    - generic [ref=f6e3]:
+      - generic [ref=f6e5]:
+        - img [ref=f6e7]
+        - generic [ref=f6e10]: Gradely
+      - generic [ref=f6e13]:
+        - generic [ref=f6e14]:
+          - img [ref=f6e16]
+          - heading "Masuk ke Gradely" [level=1] [ref=f6e19]
+          - paragraph [ref=f6e20]: Platform Monitoring Akademik ISI Yogyakarta
+        - generic [ref=f6e21]:
+          - button "Mahasiswa" [ref=f6e22] [cursor=pointer]:
+            - img [ref=f6e23]
+            - generic [ref=f6e28]: Mahasiswa
+          - button "Dosen" [ref=f6e29] [cursor=pointer]:
+            - img [ref=f6e30]
+            - generic [ref=f6e33]: Dosen
+          - button "Kampus" [ref=f6e34] [cursor=pointer]:
+            - img [ref=f6e35]
+            - generic [ref=f6e39]: Kampus
+          - button "Mitra" [ref=f6e40] [cursor=pointer]:
+            - img [ref=f6e41]
+            - generic [ref=f6e44]: Mitra
+        - paragraph [ref=f6e45]: Login sebagai Mahasiswa
+        - generic [ref=f6e46]:
+          - generic [ref=f6e47]:
+            - generic [ref=f6e48]: Email
+            - textbox "Email" [ref=f6e49]:
+              - /placeholder: nama@isi.ac.id
+          - generic [ref=f6e50]:
+            - generic [ref=f6e51]:
+              - generic [ref=f6e52]: Password
+              - link "Lupa password?" [ref=f6e53] [cursor=pointer]:
+                - /url: /reset-password
+            - textbox "Password" [ref=f6e54]:
+              - /placeholder: ••••••••
+          - button "Masuk" [ref=f6e55] [cursor=pointer]
+        - paragraph [ref=f6e56]: Belum punya akun? Hubungi Admin Kampus
+      - paragraph [ref=f6e57]: © 2026 Gradely — ISI Yogyakarta
+    - generic [ref=f6e60]:
+      - generic [ref=f6e61]:
+        - heading "Monitoring Akademik Lebih Mudah" [level=2] [ref=f6e62]
+        - paragraph [ref=f6e63]: Pantau perkembangan akademik, hitung progres kelulusan, dan bangun portofolio karier — semuanya dalam satu platform.
+      - generic [ref=f6e64]:
+        - generic [ref=f6e65]:
+          - img [ref=f6e66]
+          - paragraph [ref=f6e71]: 1,200+
+          - paragraph [ref=f6e72]: Mahasiswa
+        - generic [ref=f6e73]:
+          - img [ref=f6e74]
+          - paragraph [ref=f6e77]: "9"
+          - paragraph [ref=f6e78]: Program Studi
+        - generic [ref=f6e79]:
+          - img [ref=f6e80]
+          - paragraph [ref=f6e83]: 45+
+          - paragraph [ref=f6e84]: Dosen Wali
+      - generic [ref=f6e85]:
+        - generic [ref=f6e88]:
+          - text: Mahasiswa
+          - generic [ref=f6e89]: — Pantau IPK, SKS, dan progres kelulusan
+        - generic [ref=f6e92]:
+          - text: Dosen Wali
+          - generic [ref=f6e93]: — Monitor bimbingan mahasiswa secara real-time
+        - generic [ref=f6e96]:
+          - text: Admin Kampus
+          - generic [ref=f6e97]: — Kelola data akademik seluruh civitas
+        - generic [ref=f6e100]:
+          - text: Mitra Industri
+          - generic [ref=f6e101]: — Temukan talenta terbaik untuk rekrutmen
+  - region "Notifications alt+T"

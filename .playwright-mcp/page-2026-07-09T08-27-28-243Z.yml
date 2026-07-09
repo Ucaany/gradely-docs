@@ -1,0 +1,52 @@
+- generic [active] [ref=f21e1]:
+  - main [ref=f21e2]:
+    - generic [ref=f21e3]:
+      - generic [ref=f21e5]:
+        - img [ref=f21e7]
+        - generic [ref=f21e10]: Gradely
+      - blockquote [ref=f21e12]:
+        - paragraph [ref=f21e13]: “Dari ruang kelas menuju karier — semua perjalanan akademikmu tercatat dengan baik.”
+        - generic [ref=f21e14]: ~ Tim Gradely
+      - generic [ref=f21e15]:
+        - generic:
+          - img "Background Paths"
+        - generic:
+          - img "Background Paths"
+    - generic [ref=f21e20]:
+      - generic [ref=f21e21]:
+        - heading "Selamat Datang" [level=1] [ref=f21e22]
+        - paragraph [ref=f21e23]: Masuk dan mulai perjalanan akademikmu
+      - generic [ref=f21e24]:
+        - generic [ref=f21e25]:
+          - generic [ref=f21e26]: Email
+          - textbox "Email" [ref=f21e27]:
+            - /placeholder: nama@email.com
+        - generic [ref=f21e28]:
+          - generic [ref=f21e29]:
+            - generic [ref=f21e30]: Password
+            - link "Lupa password?" [ref=f21e31] [cursor=pointer]:
+              - /url: /reset-password
+          - generic [ref=f21e32]:
+            - textbox "Password" [ref=f21e33]:
+              - /placeholder: ••••••••
+            - button [ref=f21e34] [cursor=pointer]:
+              - img [ref=f21e35]
+        - button "Masuk" [ref=f21e38] [cursor=pointer]
+      - generic [ref=f21e39]:
+        - paragraph [ref=f21e40]: Login sebagai
+        - generic [ref=f21e41]:
+          - button "Mahasiswa" [ref=f21e42] [cursor=pointer]:
+            - img [ref=f21e43]
+            - text: Mahasiswa
+          - button "Dosen" [ref=f21e48] [cursor=pointer]:
+            - img [ref=f21e49]
+            - text: Dosen
+          - button "Kampus" [ref=f21e52] [cursor=pointer]:
+            - img [ref=f21e53]
+            - text: Kampus
+          - button "Mitra" [ref=f21e57] [cursor=pointer]:
+            - img [ref=f21e58]
+            - text: Mitra
+      - paragraph [ref=f21e61]: Belum punya akun? Hubungi Admin
+  - region "Notifications alt+T"
+  - alert [ref=f21e62]

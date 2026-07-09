@@ -1,0 +1,44 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e6]:
+    - generic [ref=f18e7]:
+      - generic [ref=f18e8]:
+        - img [ref=f18e10]
+        - heading "Masuk ke Gradely" [level=1] [ref=f18e13]
+        - paragraph [ref=f18e14]: Selamat datang, silakan masuk ke akun Anda
+      - generic [ref=f18e15]:
+        - generic [ref=f18e16]: Login sebagai
+        - generic [ref=f18e17]:
+          - button "Mahasiswa" [ref=f18e18] [cursor=pointer]:
+            - img [ref=f18e19]
+            - generic [ref=f18e24]: Mahasiswa
+          - button "Dosen" [ref=f18e25] [cursor=pointer]:
+            - img [ref=f18e26]
+            - generic [ref=f18e29]: Dosen
+          - button "Kampus" [ref=f18e30] [cursor=pointer]:
+            - img [ref=f18e31]
+            - generic [ref=f18e35]: Kampus
+          - button "Mitra" [ref=f18e36] [cursor=pointer]:
+            - img [ref=f18e37]
+            - generic [ref=f18e40]: Mitra
+      - generic [ref=f18e41]:
+        - generic [ref=f18e42]: Email
+        - textbox "Email" [ref=f18e43]:
+          - /placeholder: nama@email.com
+      - generic [ref=f18e44]:
+        - generic [ref=f18e45]:
+          - generic [ref=f18e46]: Password
+          - link "Lupa password?" [ref=f18e47] [cursor=pointer]:
+            - /url: /reset-password
+        - generic [ref=f18e48]:
+          - textbox "Password" [ref=f18e49]:
+            - /placeholder: ••••••••
+          - button [ref=f18e50] [cursor=pointer]:
+            - img [ref=f18e51]
+      - button "Masuk" [ref=f18e54] [cursor=pointer]
+      - paragraph [ref=f18e55]: Belum punya akun? Hubungi Admin
+    - generic [ref=f18e58]:
+      - img [ref=f18e60]
+      - generic [ref=f18e63]:
+        - heading "Gradely" [level=2] [ref=f18e64]
+        - paragraph [ref=f18e65]: Platform monitoring akademik terpadu
+  - region "Notifications alt+T"

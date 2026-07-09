@@ -1,0 +1,119 @@
+[     802ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[   12664ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://zavmwwjkcaonqvfzhvzc.supabase.co/auth/v1/token?grant_type=password:0
+[   84488ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/dashboard?_rsc=z4rlv:0
+[   84794ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/dashboard:0
+[   85041ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[   85084ms] Error: Cannot read properties of undefined (reading 'call')
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/(admin)/layout.tsx:7:73)
+    at (rsc)/./src/app/(admin)/layout.tsx (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\dashboard\page.js:348:1)
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at async e7 (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:398677)
+    at async tS (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402230)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402791)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402922)
+    at async tO (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2320)
+    at async (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2989)
+[   85087ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[  109874ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/dashboard:0
+[  110058ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  110071ms] Error: Cannot read properties of undefined (reading 'call')
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/(admin)/layout.tsx:7:73)
+    at (rsc)/./src/app/(admin)/layout.tsx (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\dashboard\page.js:348:1)
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at async e7 (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:398677)
+    at async tS (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402230)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402791)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402922)
+    at async tO (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2320)
+    at async (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2989)
+[  110073ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[  110587ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/dashboard:0
+[  110757ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  110766ms] Error: Cannot read properties of undefined (reading 'call')
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/(admin)/layout.tsx:7:73)
+    at (rsc)/./src/app/(admin)/layout.tsx (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\dashboard\page.js:348:1)
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at async e7 (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:398677)
+    at async tS (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402230)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402791)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402922)
+    at async tO (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2320)
+    at async (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2989)
+[  110770ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[  113576ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/dashboard:0
+[  113751ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  113761ms] Error: Cannot read properties of undefined (reading 'call')
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/(admin)/layout.tsx:7:73)
+    at (rsc)/./src/app/(admin)/layout.tsx (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\dashboard\page.js:348:1)
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at async e7 (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:398677)
+    at async tS (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402230)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402791)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402922)
+    at async tO (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2320)
+    at async (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2989)
+[  113763ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[  115916ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/dashboard:0
+[  116093ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  116105ms] Error: Cannot read properties of undefined (reading 'call')
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/(admin)/layout.tsx:7:73)
+    at (rsc)/./src/app/(admin)/layout.tsx (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\dashboard\page.js:348:1)
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at async e7 (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:398677)
+    at async tS (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402230)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402791)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402922)
+    at async tO (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2320)
+    at async (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2989)
+[  116108ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[  130156ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/dashboard:0
+[  130318ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  130326ms] Error: Cannot read properties of undefined (reading 'call')
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/(admin)/layout.tsx:7:73)
+    at (rsc)/./src/app/(admin)/layout.tsx (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\dashboard\page.js:348:1)
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at async e7 (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:398677)
+    at async tS (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402230)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402791)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402922)
+    at async tO (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2320)
+    at async (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2989)
+[  130329ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[  138338ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[  139123ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:221
+[  140742ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/030b182f23cc1ec4.webpack.hot-update.json:0
+[  140742ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:349
+[  141145ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/dashboard:0
+[  141314ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  141328ms] Error: Cannot read properties of undefined (reading 'call')
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/(admin)/layout.tsx:7:73)
+    at (rsc)/./src/app/(admin)/layout.tsx (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\dashboard\page.js:348:1)
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at async e7 (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:398677)
+    at async tS (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402230)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402791)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402922)
+    at async tO (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2320)
+    at async (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2989)
+[  141328ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[  149005ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/admin/dashboard:0
+[  149188ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[  149206ms] Error: Cannot read properties of undefined (reading 'call')
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at eval (webpack-internal:///(rsc)/./src/app/(admin)/layout.tsx:7:73)
+    at (rsc)/./src/app/(admin)/layout.tsx (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\app\(admin)\admin\dashboard\page.js:348:1)
+    at __webpack_require__ (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\.next\server\webpack-runtime.js:33:43)
+    at async e7 (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:398677)
+    at async tS (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402230)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402791)
+    at async tw (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:402922)
+    at async tO (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2320)
+    at async (file://C:\Users\UCAN\Documents\Vibe Coding Saas\Saas -Gredly\gradely\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:36:2989)
+[  149205ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38

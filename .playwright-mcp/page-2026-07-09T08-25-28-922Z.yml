@@ -1,0 +1,43 @@
+- generic [active] [ref=f20e1]:
+  - main [ref=f20e2]:
+    - generic [ref=f20e5]:
+      - generic [ref=f20e6]:
+        - img [ref=f20e8]
+        - generic [ref=f20e11]: Gradely
+      - generic [ref=f20e12]:
+        - heading "Selamat Datang" [level=1] [ref=f20e13]
+        - paragraph [ref=f20e14]: Masuk ke akun Gradely Anda
+      - generic [ref=f20e15]:
+        - button "Mahasiswa" [ref=f20e16] [cursor=pointer]:
+          - img [ref=f20e17]
+          - generic [ref=f20e22]: Mahasiswa
+        - button "Dosen" [ref=f20e23] [cursor=pointer]:
+          - img [ref=f20e24]
+          - generic [ref=f20e27]: Dosen
+        - button "Kampus" [ref=f20e28] [cursor=pointer]:
+          - img [ref=f20e29]
+          - generic [ref=f20e33]: Kampus
+        - button "Mitra" [ref=f20e34] [cursor=pointer]:
+          - img [ref=f20e35]
+          - generic [ref=f20e38]: Mitra
+      - generic [ref=f20e39]:
+        - generic [ref=f20e40]:
+          - generic [ref=f20e41]: Email
+          - group [ref=f20e42]:
+            - textbox "Email" [ref=f20e43]:
+              - /placeholder: nama@email.com
+        - generic [ref=f20e44]:
+          - generic [ref=f20e45]:
+            - generic [ref=f20e46]: Password
+            - link "Lupa password?" [ref=f20e47] [cursor=pointer]:
+              - /url: /reset-password
+          - group [ref=f20e48]:
+            - textbox "Password" [ref=f20e49]:
+              - /placeholder: ••••••••
+            - group [ref=f20e50]:
+              - button [ref=f20e51] [cursor=pointer]:
+                - img [ref=f20e52]
+        - button "Masuk" [ref=f20e55] [cursor=pointer]
+      - paragraph [ref=f20e56]: Belum punya akun? Hubungi Admin
+  - region "Notifications alt+T"
+  - alert [ref=f20e57]

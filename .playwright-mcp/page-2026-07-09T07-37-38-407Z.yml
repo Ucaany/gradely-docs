@@ -1,0 +1,37 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e7]: Gradely
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - img [ref=e14]
+          - heading "Masuk ke Gradely" [level=1] [ref=e17]
+          - paragraph [ref=e18]: Platform Monitoring Akademik ISI Yogyakarta
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]: Email
+            - textbox "Email" [ref=e22]:
+              - /placeholder: nama@isi.ac.id
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - generic [ref=e25]: Password
+              - link "Lupa password?" [ref=e26] [cursor=pointer]:
+                - /url: /reset-password
+            - textbox "Password" [ref=e27]:
+              - /placeholder: ••••••••
+          - button "Masuk" [ref=e28] [cursor=pointer]
+        - generic [ref=e29]: Belum punya akun? Hubungi Admin Kampus
+    - generic [ref=e33]:
+      - heading "Monitoring Akademik Lebih Mudah" [level=2] [ref=e34]
+      - paragraph [ref=e35]: Pantau perkembangan akademik, hitung progres kelulusan, dan bangun portofolio karier — semuanya dalam satu platform.
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - paragraph [ref=e38]: 1,200+
+          - paragraph [ref=e39]: Mahasiswa
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: "9"
+          - paragraph [ref=e42]: Program Studi
+        - generic [ref=e43]:
+          - paragraph [ref=e44]: 45+
+          - paragraph [ref=e45]: Dosen Wali
+  - region "Notifications alt+T"
