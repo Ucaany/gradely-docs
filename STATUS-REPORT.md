@@ -1,7 +1,7 @@
 # Gradely — Status Report
 **Tanggal Update:** 10 Juli 2026  
-**Fase Saat Ini:** Phase 2 ✅ Selesai → Phase 3 ✅ Selesai → Phase 4 🔄 Berikutnya  
-**Progress Keseluruhan:** ~65% (Phase 1 + 2 + 3 selesai)
+**Fase Saat Ini:** Phase 4 ✅ Selesai → Phase 5 🔄 Berikutnya  
+**Progress Keseluruhan:** ~88% (Phase 1 + 2 + 3 + 4 selesai)
 
 ---
 
@@ -14,7 +14,7 @@
 | UI Polish | ✅ **SELESAI** | shadcn Form, full width, responsive, import CSV |
 | Phase 2 — Akademik | ✅ **SELESAI** | Dashboard Mahasiswa, Nilai, IPK, Target |
 | Phase 3 — Dosen | ✅ **SELESAI** | Dashboard Dosen, Monitoring, Risiko |
-| Phase 4 — Portfolio & Career | 🔴 **BELUM MULAI** | Portfolio, Career Profile, Company Dashboard |
+| Phase 4 — Portfolio & Career | ✅ **SELESAI** | Portfolio CRUD, Career Profile, Company Dashboard |
 | Phase 5 — WAHA & Launch | 🟡 **PARTIAL** | Settings UI selesai, send logic belum |
 
 ---
@@ -109,6 +109,31 @@
 - Optimal di 320px, 375px, 768px, 1024px, 1280px, 1440px, 1920px
 - Tidak ada overflow horizontal
 - Semua card memenuhi area konten
+
+---
+
+## PHASE 4 — SELESAI (100%) — 10 Juli 2026
+
+### Portfolio Mahasiswa ✅
+- API `GET/POST /api/student/portfolio` — CRUD portofolio
+- API `PATCH/DELETE /api/student/portfolio/[id]` — update & hapus per item
+- API `GET /api/student/portfolio/categories` — daftar 11 kategori
+- Halaman `/student/portfolio` — tampil per kategori, filter, add/edit/delete
+- Komponen `PortfolioFormDialog` — form lengkap dengan skill tags & 6 URL fields
+- Komponen `PortfolioLinks` — tampil link GitHub, Behance, LinkedIn, dll
+
+### Career Profile ✅
+- API `GET/POST /api/student/career` — ambil & simpan minat karier
+- Halaman `/student/career` — pilih minat karier (12 opsi), toggle consent `profile_visible`
+- Toggle visibility terintegrasi dengan `PATCH /api/student/profile`
+
+### Company Dashboard ✅
+- API `GET /api/company/students` — browse mahasiswa dengan filter (prodi, IPK, skill, minat karier, nama)
+- API `GET /api/company/study-programs` — daftar prodi untuk filter
+- Komponen `CompanyAppSidebar` + `CompanyHeader`
+- Layout `/company` dengan auth guard role `company`
+- Halaman `/company/dashboard` — grid mahasiswa, filter bar, expand detail, portfolio links
+- RLS consent enforcement — hanya mahasiswa `profile_visible = true` yang muncul
 
 ---
 
