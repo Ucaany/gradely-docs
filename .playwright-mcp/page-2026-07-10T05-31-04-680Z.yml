@@ -1,0 +1,180 @@
+- generic [ref=f4e1]:
+  - generic [ref=f4e3]:
+    - generic [ref=f4e4]:
+      - button "" [ref=f4e5] [cursor=pointer]
+      - link "logo Dashboard" [ref=f4e7] [cursor=pointer]:
+        - /url: /dashboard/
+        - img "logo" [ref=f4e8]
+        - generic [ref=f4e9]: Dashboard
+      - button "" [ref=f4e10] [cursor=pointer]
+      - text:   
+    - list [ref=f4e13]:
+      - listitem [ref=f4e14]:
+        - generic [ref=f4e15]: Home
+        - text: 
+        - list [ref=f4e16]:
+          - listitem [ref=f4e17]:
+            - link " Dashboard" [ref=f4e18] [cursor=pointer]:
+              - /url: /dashboard/
+              - generic [ref=f4e19]: 
+              - generic [ref=f4e20]: Dashboard
+          - listitem [ref=f4e21]:
+            - link " Workers" [ref=f4e22] [cursor=pointer]:
+              - /url: /dashboard/workers
+              - generic [ref=f4e23]: 
+              - generic [ref=f4e24]: Workers
+          - listitem [ref=f4e25]:
+            - link " Sessions" [ref=f4e26] [cursor=pointer]:
+              - /url: /dashboard/sessions
+              - generic [ref=f4e27]: 
+              - generic [ref=f4e28]: Sessions
+          - listitem [ref=f4e29]:
+            - link " Event Monitor" [ref=f4e30] [cursor=pointer]:
+              - /url: /dashboard/event-monitor
+              - generic [ref=f4e31]: 
+              - generic [ref=f4e32]: Event Monitor
+    - generic [ref=f4e35]:
+      - generic [ref=f4e37]:
+        - generic [ref=f4e38]:
+          - generic [ref=f4e39]:
+            - generic [ref=f4e40]: Sessions
+            - generic [ref=f4e41]: "0"
+          - generic [ref=f4e42]: 
+        - text: 0 working
+      - generic [ref=f4e46]:
+        - generic [ref=f4e47]:
+          - generic [ref=f4e48]:
+            - generic [ref=f4e49]: Workers
+            - generic [ref=f4e50]: "1"
+          - generic [ref=f4e51]: 
+        - generic [ref=f4e53]: 1 not connected / 0 connected
+      - generic [ref=f4e55]:
+        - generic [ref=f4e56]:
+          - generic [ref=f4e57]:
+            - generic [ref=f4e58]: Updates
+            - generic [ref=f4e60]:
+              - generic [ref=f4e61]: 
+              - text: All workers up to date!
+          - generic [ref=f4e62]: 
+        - generic [ref=f4e64]:
+          - link "Changelog " [ref=f4e65] [cursor=pointer]:
+            - /url: https://waha.devlike.pro/docs/overview/changelog/
+            - text: Changelog
+            - generic [ref=f4e66]: 
+          - link "How to Update " [ref=f4e67] [cursor=pointer]:
+            - /url: https://waha.devlike.pro/blog/waha-update/
+            - text: How to Update
+            - generic [ref=f4e68]: 
+      - generic [ref=f4e70]:
+        - generic [ref=f4e71]:
+          - heading " Workers" [level=5] [ref=f4e73]:
+            - generic [ref=f4e74]: 
+            - generic [ref=f4e75]: Workers
+          - button "" [ref=f4e77] [cursor=pointer]
+        - generic [ref=f4e79]:
+          - generic [ref=f4e81]:
+            - button "Connect" [ref=f4e82] [cursor=pointer]:
+              - generic [ref=f4e83]: 
+            - generic [ref=f4e85]:
+              - generic [ref=f4e86]: 
+              - textbox "Keyword Search" [ref=f4e87]
+          - table [ref=f4e89]:
+            - rowgroup [ref=f4e90]:
+              - row [ref=f4e91]:
+                - columnheader "Name" [ref=f4e92]
+                - columnheader "API" [ref=f4e96]
+                - columnheader "Info" [ref=f4e100]
+                - columnheader "Sessions" [ref=f4e104]
+                - columnheader [ref=f4e108]
+            - rowgroup [ref=f4e109]:
+              - row [ref=f4e110]:
+                - cell "WAHA" [ref=f4e111]
+                - cell " https://waha.sribuai.my.id" [ref=f4e113]:
+                  - generic [ref=f4e115]:
+                    - generic [ref=f4e116]: 
+                    - link "https://waha.sribuai.my.id" [ref=f4e117] [cursor=pointer]:
+                      - /url: https://waha.sribuai.my.id
+                - cell "" [ref=f4e118]
+                - cell "" [ref=f4e120]
+                - cell [ref=f4e123]:
+                  - generic [ref=f4e124]:
+                    - button "" [ref=f4e125] [cursor=pointer]
+                    - button "" [disabled]
+                    - button "" [disabled]
+                    - button "" [ref=f4e127] [cursor=pointer]
+                    - button "" [ref=f4e129] [cursor=pointer]
+                    - button "" [ref=f4e131] [cursor=pointer]
+          - navigation [ref=f4e133]:
+            - generic [ref=f4e134]:
+              - button "First Page" [disabled]
+              - button "Previous Page" [disabled]
+              - button "Page 1" [ref=f4e136] [cursor=pointer]: "1"
+              - button "Next Page" [disabled]
+              - button "Last Page" [disabled]
+      - generic [ref=f4e138]:
+        - generic [ref=f4e139]:
+          - heading " Sessions" [level=5] [ref=f4e141]:
+            - generic [ref=f4e142]: 
+            - generic [ref=f4e143]: Sessions
+          - button "" [ref=f4e145] [cursor=pointer]
+        - generic [ref=f4e147]:
+          - generic [ref=f4e149]:
+            - button "Start New" [active] [ref=f4e151] [cursor=pointer]:
+              - generic [ref=f4e152]: 
+            - generic [ref=f4e154]:
+              - generic [ref=f4e156]:
+                - generic [ref=f4e157]: 
+                - textbox "Search by Name, Phone, Metadata" [ref=f4e158]
+              - generic [ref=f4e160] [cursor=pointer]:
+                - generic [ref=f4e161]:
+                  - combobox "Columns"
+                - generic [ref=f4e162]: Columns
+          - table [ref=f4e168]:
+            - rowgroup [ref=f4e169]:
+              - row [ref=f4e170]:
+                - columnheader [ref=f4e171]
+                - columnheader "Name" [ref=f4e173] [cursor=pointer]
+                - columnheader "Metadata" [ref=f4e180]
+                - columnheader "Account" [ref=f4e184]
+                - columnheader "Status" [ref=f4e188]
+                - columnheader "Server" [ref=f4e192]
+                - columnheader [ref=f4e196]
+              - row [ref=f4e197]:
+                - columnheader "All items unselected" [ref=f4e198]:
+                  - generic:
+                    - checkbox "All items unselected" [disabled]
+                - columnheader [ref=f4e199]:
+                  - textbox "Session" [ref=f4e202]
+                - columnheader [ref=f4e203]
+                - columnheader [ref=f4e204]:
+                  - generic [ref=f4e205]:
+                    - textbox "Account (Phone Number)" [ref=f4e207]
+                    - button [ref=f4e208] [cursor=pointer]
+                - columnheader [ref=f4e211]:
+                  - combobox "Any" [ref=f4e215] [cursor=pointer]
+                - columnheader [ref=f4e219]:
+                  - combobox "Any" [ref=f4e223] [cursor=pointer]
+                - columnheader [ref=f4e227]:
+                  - generic [ref=f4e231]:
+                    - button "" [disabled]
+                    - button "" [disabled]
+                    - button "" [disabled]
+                    - button "" [disabled]
+                    - button "" [disabled]
+            - rowgroup [ref=f4e232]:
+              - row [ref=f4e233]:
+                - cell "No sessions found" [ref=f4e234]
+          - navigation [ref=f4e235]:
+            - generic [ref=f4e236]:
+              - button "First Page" [disabled]
+              - button "Previous Page" [disabled]
+              - button "Next Page" [disabled]
+              - button "Last Page" [disabled]
+              - generic:
+                - combobox "Rows per page" [disabled]: "10"
+  - alert [ref=f4e239]:
+    - generic [ref=f4e240]:
+      - generic [ref=f4e243]:
+        - text: No connected server
+        - generic [ref=f4e244]: Please connect to a server first
+      - button "Close" [ref=f4e246] [cursor=pointer]

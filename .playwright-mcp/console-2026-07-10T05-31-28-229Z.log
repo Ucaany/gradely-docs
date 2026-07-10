@@ -1,0 +1,188 @@
+[     957ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ chrome-error://chromewebdata/:0
+[   98254ms] [ERROR] SecurityError: Failed to execute 'replaceState' on 'History': A history state object with URL 'https://waha.sribuai.my.id/dashboard/' cannot be created in a document with origin 'https://waha.sribuai.my.id' and URL 'https://admin:96fd33e4529847abb828b787e7ea0ff8@waha.sribuai.my.id/dashboard/'.
+    at o (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:29:5163)
+    at jH (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:29:4916)
+    at j5 (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:29:5607)
+    at setup (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:29:28277)
+    at https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:29079
+    at a (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:29892)
+    at Object.runWithContext (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:19:18062)
+    at By (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:29922)
+    at https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:28170
+    at $r.run (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:15:267) @ https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:28
+[   98277ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://admin:96fd33e4529847abb828b787e7ea0ff8@waha.sribuai.my.id/dashboard/_nuxt/primeicons.BubJZjaf.svg:0
+[   98279ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BO3j4SkF.js:0
+[   98279ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DWmNh2ez.js:0
+[   98279ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/C7B0ARio.js:0
+[   98280ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DV6gf1FC.js:0
+[   98280ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DAm86-4D.js:0
+[   98280ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/Cb7bfIYA.js:0
+[   98280ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DHO1g0Lf.js:0
+[   98281ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/cwCZGKmq.js:0
+[   98281ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BuAFwmRr.js:0
+[   98281ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CXAwSBgW.js:0
+[   98282ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/inOsyjY_.js:0
+[   98282ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BecGH2YB.js:0
+[   98282ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/B0EsHcdL.js:0
+[   98283ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CzmMQzxy.js:0
+[   98283ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BbzYdgHu.js:0
+[   98283ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CR6BH6XM.js:0
+[   98284ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BYSTMS6m.js:0
+[   98285ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/B8thOroY.js:0
+[   98285ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/keUp2wBT.js:0
+[   98287ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/tUSI82uv.js:0
+[   98288ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/0SnB9f0m.js:0
+[   98295ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BB08EexD.js:0
+[   98302ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BzTyTaaj.js:0
+[   98310ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DWYGDJSF.js:0
+[   98310ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/B5wOrvuw.js:0
+[   98310ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CtiAJish.js:0
+[   98310ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/D6mE_lWB.js:0
+[   98311ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/Cf5HRRGU.js:0
+[   98311ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/WTCQgYyF.js:0
+[   98312ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/Dsan1LI9.js:0
+[   98313ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/C7lxvFX4.js:0
+[   98313ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/D4bqj5u_.js:0
+[   98313ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/gkJwzqRY.js:0
+[   98314ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CDoyDxP8.js:0
+[   98315ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CsnJWuvJ.js:0
+[   98319ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CbLFSW2d.js:0
+[   98320ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DdyWvrgv.js:0
+[   98321ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DSR-PyJY.js:0
+[   98322ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DwDhLXaS.js:0
+[   98324ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/C8bM2_0z.js:0
+[   98324ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BlQ4zDhA.js:0
+[   98325ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DEJOXHPF.js:0
+[   98325ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/bgV2fCiA.js:0
+[   98326ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DW2bw6b7.js:0
+[   98326ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DModWFCn.js:0
+[   98327ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/PrnzVrlQ.js:0
+[   98327ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/De5rcChM.js:0
+[   98330ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CVS5L-8l.js:0
+[   98331ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BzAxztXZ.js:0
+[   98331ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/B5uoH4TS.js:0
+[   98332ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/ru4GOmLL.js:0
+[   98332ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CMzYJCjl.js:0
+[   98334ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/Dmg8k3JN.js:0
+[   98334ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DvSrPis7.js:0
+[   98334ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CwJRnzVF.js:0
+[   98334ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BcrpWMMy.js:0
+[   98334ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/B8tui_ug.js:0
+[   98334ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BN1OJnS3.js:0
+[   98335ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/zmPlbhej.js:0
+[   98335ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BRNNZsfu.js:0
+[   98335ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://admin:96fd33e4529847abb828b787e7ea0ff8@waha.sribuai.my.id/dashboard/_nuxt/error-404.JekaaCis.css:0
+[   98335ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CyMvslY6.js:0
+[   98335ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/VBx5UmK2.js:0
+[   98335ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://admin:96fd33e4529847abb828b787e7ea0ff8@waha.sribuai.my.id/dashboard/_nuxt/error-500.CNP9nqm1.css:0
+[   98335ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/D5y7fCUT.js:0
+[   98336ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BYF0e2z0.js:0
+[   98336ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/x_AhAf7Q.js:0
+[   98420ms] [ERROR] [nuxt] error caught during app initialization Error: Context conflict
+    at a (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:26633)
+    at Object.set (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:27029)
+    at By (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:29906)
+    at https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:28170
+    at $r.run (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:15:267)
+    at Object.runWithContext (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:28162)
+    at Fy (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:29060)
+    at c (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:29378)
+    at Uy (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:29610)
+    at Ir (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:1011:1545) @ https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:22
+[   98423ms] [ERROR] [nuxt] error caught during app initialization TypeError: Cannot read properties of undefined (reading 'beforeEach')
+    at setup (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:1011:621)
+    at Se (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:19:38)
+    at tg (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:19:54011)
+    at Zv (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:19:53794)
+    at n2 (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:19:32501)
+    at X (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:19:32392)
+    at H (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:19:29338)
+    at $ (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:19:37768)
+    at mount (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:19:17846)
+    at Ig.e.mount (https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:23:12143) @ https://waha.sribuai.my.id/dashboard/_nuxt/CS27JdSB.js:22
+[   98771ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/primeicons.BubJZjaf.svg:0
+[   98771ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DModWFCn.js:0
+[   98772ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DAm86-4D.js:0
+[   98772ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DHO1g0Lf.js:0
+[   98774ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/Cb7bfIYA.js:0
+[   98775ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/inOsyjY_.js:0
+[   98775ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DV6gf1FC.js:0
+[   98775ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DWmNh2ez.js:0
+[   98775ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/C7B0ARio.js:0
+[   98776ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BO3j4SkF.js:0
+[   98776ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/cwCZGKmq.js:0
+[   98776ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CXAwSBgW.js:0
+[   98776ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BuAFwmRr.js:0
+[   98776ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CR6BH6XM.js:0
+[   98776ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BecGH2YB.js:0
+[   98776ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/B0EsHcdL.js:0
+[   98810ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/0SnB9f0m.js:0
+[   98810ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BYSTMS6m.js:0
+[   98810ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CzmMQzxy.js:0
+[   98810ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/keUp2wBT.js:0
+[   98810ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/B8thOroY.js:0
+[   98811ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BbzYdgHu.js:0
+[   98811ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BzTyTaaj.js:0
+[   98811ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/B5wOrvuw.js:0
+[   98811ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/C7lxvFX4.js:0
+[   98811ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/Cf5HRRGU.js:0
+[   98812ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DWYGDJSF.js:0
+[   98812ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CsnJWuvJ.js:0
+[   98812ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BB08EexD.js:0
+[   98813ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/tUSI82uv.js:0
+[   98813ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DdyWvrgv.js:0
+[   98813ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CDoyDxP8.js:0
+[   98814ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/gkJwzqRY.js:0
+[   98814ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/D4bqj5u_.js:0
+[   98814ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/D6mE_lWB.js:0
+[   98814ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DSR-PyJY.js:0
+[   98814ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CbLFSW2d.js:0
+[   98815ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/WTCQgYyF.js:0
+[   98816ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CtiAJish.js:0
+[   98816ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DwDhLXaS.js:0
+[   98817ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/Dsan1LI9.js:0
+[   98817ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/C8bM2_0z.js:0
+[   98817ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/De5rcChM.js:0
+[   98817ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BlQ4zDhA.js:0
+[   98817ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/PrnzVrlQ.js:0
+[   98818ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/bgV2fCiA.js:0
+[   98818ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DW2bw6b7.js:0
+[   98818ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DEJOXHPF.js:0
+[   98825ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BzAxztXZ.js:0
+[   98825ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/Dmg8k3JN.js:0
+[   98826ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CVS5L-8l.js:0
+[   98826ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/B5uoH4TS.js:0
+[   98826ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/VBx5UmK2.js:0
+[   98826ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/ru4GOmLL.js:0
+[   98826ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CMzYJCjl.js:0
+[   98827ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BN1OJnS3.js:0
+[   98827ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/DvSrPis7.js:0
+[   98827ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BcrpWMMy.js:0
+[   98827ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/B8tui_ug.js:0
+[   98844ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BRNNZsfu.js:0
+[   98845ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CyMvslY6.js:0
+[   98846ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/zmPlbhej.js:0
+[   98855ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/error-500.CNP9nqm1.css:0
+[   98861ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/x_AhAf7Q.js:0
+[   98861ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/BYF0e2z0.js:0
+[   98862ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/CwJRnzVF.js:0
+[   98862ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/error-404.JekaaCis.css:0
+[   98862ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://waha.sribuai.my.id/dashboard/_nuxt/D5y7fCUT.js:0
+[  100436ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.sribuai.my.id/api/server/status:0
+[  100438ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.sribuai.my.id/api/sessions?all=true:0
+[  100439ms] [ERROR] Failed to refresh server - waha_000000000000000001 J @ https://waha.sribuai.my.id/dashboard/_nuxt/CX-75zQP.js:31
+[  100447ms] J
+[  100506ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.sribuai.my.id/api/version:0
+[  111101ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://waha.sribuai.my.id/dashboard/:0
+[  117032ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.sribuai.my.id/api/server/status:0
+[  117033ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.sribuai.my.id/api/sessions?all=true:0
+[  117034ms] [ERROR] Failed to refresh server - waha_000000000000000001 J @ https://waha.sribuai.my.id/dashboard/_nuxt/CX-75zQP.js:31
+[  117040ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.sribuai.my.id/api/version:0
+[  117040ms] J
+[  119781ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.sribuai.my.id/api/sessions?all=true:0
+[  119782ms] [ERROR] Failed to refresh server - waha_000000000000000001 J @ https://waha.sribuai.my.id/dashboard/_nuxt/CX-75zQP.js:31
+[  119887ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.sribuai.my.id/api/version:0
+[  119888ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://waha.sribuai.my.id/api/server/status:0
+[  119888ms] J
+[  124259ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://waha.sribuai.my.id/dashboard/workers:0
+[  132641ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://waha.sribuai.my.id/dashboard/workers:0
