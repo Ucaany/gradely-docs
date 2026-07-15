@@ -1,7 +1,7 @@
 # Gradely — Status Report
-**Tanggal Update:** 10 Juli 2026  
-**Fase Saat Ini:** Phase 4 ✅ Selesai → Phase 5 🔄 Berikutnya  
-**Progress Keseluruhan:** ~88% (Phase 1 + 2 + 3 + 4 selesai)
+**Tanggal Update:** 11 Juli 2026  
+**Fase Saat Ini:** Phase 5 🔄 In Progress  
+**Progress Keseluruhan:** ~92% (Phase 1–4 selesai, Phase 5 ~70%)
 
 ---
 
@@ -15,7 +15,7 @@
 | Phase 2 — Akademik | ✅ **SELESAI** | Dashboard Mahasiswa, Nilai, IPK, Target |
 | Phase 3 — Dosen | ✅ **SELESAI** | Dashboard Dosen, Monitoring, Risiko |
 | Phase 4 — Portfolio & Career | ✅ **SELESAI** | Portfolio CRUD, Career Profile, Company Dashboard |
-| Phase 5 — WAHA & Launch | 🟡 **PARTIAL** | Settings UI selesai, send logic belum |
+| Phase 5 — WAHA & Launch | 🟡 **PARTIAL** | WAHA send ✅, Notification inbox ✅, Trigger UI ✅, E2E belum |
 
 ---
 
@@ -222,20 +222,30 @@
 
 ---
 
-## PHASE 5 — PARTIAL (20%)
+## PHASE 5 — IN PROGRESS (~70%)
 
 ### Yang Sudah Ada
 - [x] Panel konfigurasi WAHA (`/admin/settings`)
 - [x] Form settings (URL, session, API key)
-- [x] Test connection button
+- [x] Test connection button + kirim pesan test
 - [x] Riwayat log di dashboard (tabel `whatsapp_logs`)
+- [x] WAHA client library (`lib/waha.ts`) + normalizer nomor Indonesia
+- [x] API route kirim pesan (`/api/waha/send`)
+- [x] Template pesan: `academicWarning`, `semesterReminder`, `testMessage`, `graduationTarget`
+- [x] API blast notifikasi (`/api/admin/notifications`) — `academic_warning` & `semester_reminder`
+- [x] Notifikasi masuk ke inbox mahasiswa saat blast dikirim
+- [x] Notification inbox UI (`NotificationInbox` sheet) di student header
+- [x] Halaman trigger notifikasi admin (`/admin/notifications`)
+- [x] Link "Kirim Notifikasi" di sidebar admin
 
 ### Yang Belum Ada
-- [ ] API route kirim pesan (`/api/waha/send`)
-- [ ] Template pesan (mahasiswa, dosen, admin)
-- [ ] Trigger notifikasi akhir semester
-- [ ] Queue/async sending
-- [ ] Notification inbox UI
+- [ ] E2E testing semua role (Mahasiswa, Dosen, Admin, Company)
+- [ ] Performance testing
+- [ ] Security audit (RLS, consent, RBAC)
+- [ ] Optimasi performa (query optimization, bundle size)
+- [ ] Dokumentasi final (API docs, user guide)
+- [ ] Deployment ke Vercel + Supabase Cloud + VPS/Docker (WAHA)
+- [ ] Seed data produksi ISI Yogyakarta
 
 ---
 
