@@ -1,0 +1,104 @@
+import { NextResponse } from 'next/server'
+import { createClient, createServiceClient } from '@/lib/supabase/server'
+import { deduplicateRetakes } from '@/lib/utils/academic'
+import type { ApiResponse, StudentGrade } from '@/types'
+
+// GET /api/admin/chart-data — rata-rata IPK & IPS per semester dari mahasiswa universitas admin
+export async function GET() {
+  try {
+    // Auth check — anon client untuk baca session
+    const supabase = await createClient()
+    const { data: { user } } = await supabase.auth.getUser()
+    if (!user) return NextResponse.json<ApiResponse>({ data: null, error: 'Unauthorized', success: false }, { status: 401 })
+
+    const { data: profile } = await supabase
+      .from('users')
+      .select('role, university_id')
+      .eq('id', user.id)
+      .single()
+
+    if (!profile || profile.role !== 'admin') {
+      return NextResponse.json<ApiResponse>({ data: null, error: 'Forbidden', success: false }, { status: 403 })
+    }
+
+    const universityId = profile.university_id ?? null
+
+    if (!universityId) {
+      return NextResponse.json({ data: [], error: null, success: true })
+    }
+
+    // Query data pakai service client — bypass RLS agar admin bisa baca data mahasiswa lain
+    const service = createServiceClient()
+
+    // Ambil ID mahasiswa aktif dalam universitas admin
+    const { data: students } = await service
+      .from('users')
+      .select('id')
+      .eq('role', 'student')
+      .eq('university_id', universityId)
+      .neq('is_active', false)
+
+    const studentIds = (students ?? []).map((s: { id: string }) => s.id)
+
+    if (studentIds.length === 0) {
+      return NextResponse.json({ data: [], error: null, success: true })
+    }
+
+    const { data: grades, error } = await service
+      .from('student_grades')
+      .select('semester_number, grade_points, credits, student_id, course_name, is_retake')
+      .in('student_id', studentIds)
+      .order('semester_number', { ascending: true })
+
+    if (error) return NextResponse.json<ApiResponse>({ data: null, error: error.message, success: false }, { status: 500 })
+
+    if (!grades || grades.length === 0) {
+      return NextResponse.json({ data: [], error: null, success: true })
+    }
+
+    // Deduplikasi per mahasiswa agar mata kuliah ulang tidak dihitung ganda
+    const gradesByStudent = new Map<string, StudentGrade[]>()
+    for (const g of grades) {
+      const list = gradesByStudent.get(g.student_id) ?? []
+      list.push(g as unknown as StudentGrade)
+      gradesByStudent.set(g.student_id, list)
+    }
+
+    const dedupedGrades: StudentGrade[] = Array.from(gradesByStudent.values()).flatMap(
+      (studentGrades) => deduplicateRetakes(studentGrades)
+    )
+
+    // Group by semester_number, hitung rata-rata IPS per semester dan IPK kumulatif
+    const semesterMap = new Map<number, { totalWeighted: number; totalCredits: number }>()
+
+    for (const g of dedupedGrades) {
+      const sem = g.semester_number
+      const existing = semesterMap.get(sem) ?? { totalWeighted: 0, totalCredits: 0 }
+      existing.totalWeighted += g.grade_points * g.credits
+      existing.totalCredits += g.credits
+      semesterMap.set(sem, existing)
+    }
+
+    const sortedSemesters = Array.from(semesterMap.entries()).sort(([a], [b]) => a - b)
+
+    let cumulativeWeighted = 0
+    let cumulativeCredits = 0
+
+    const chartData = sortedSemesters.map(([semester_number, { totalWeighted, totalCredits }]) => {
+      const ips = totalCredits > 0 ? Math.round((totalWeighted / totalCredits) * 100) / 100 : 0
+      cumulativeWeighted += totalWeighted
+      cumulativeCredits += totalCredits
+      const ipk = cumulativeCredits > 0 ? Math.round((cumulativeWeighted / cumulativeCredits) * 100) / 100 : 0
+
+      return {
+        semester: `Sem ${semester_number}`,
+        ipk,
+        ips,
+      }
+    })
+
+    return NextResponse.json({ data: chartData, error: null, success: true })
+  } catch {
+    return NextResponse.json<ApiResponse>({ data: null, error: 'Internal server error', success: false }, { status: 500 })
+  }
+}
